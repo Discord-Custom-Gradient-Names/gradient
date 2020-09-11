@@ -4,7 +4,7 @@
 [data-author-id*="373833473091436546"] {
   --name-dummy-transparent: transparent; --name-dummy-1: 1;
   --name-gradient: #33cf33, rgb(16, 57, 192);
-  --name-gradient-angle: 80deg;
+  --name-gradient-angle: 45deg;
 }
 
 
@@ -14,5 +14,4 @@
 [data-author-id*="440990343899643943"] {
   --name-dummy-transparent: transparent; --name-dummy-1: 1;
   --name-gradient: #7289da, #33cf33;
-  --name-gradient-angle: 80deg;
 }
