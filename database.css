@@ -1,6 +1,6 @@
 /*AAGaming#9395*/
 [user_by_bdfdb*="373833473091436546"],
-[data-user-id*="373833473091436546"],
+[data-user-id*="373833473091436546"] + *,
 [data-author-id*="373833473091436546"] {
   --name-dummy-transparent: transparent; --name-dummy-1: 1;
   --name-gradient: #33cf33, rgb(16, 57, 192);
@@ -10,7 +10,7 @@
 
 /*botato#6883*/
 [user_by_bdfdb*="440990343899643943"],
-[data-user-id*="440990343899643943"],
+[data-user-id*="440990343899643943"] + *,
 [data-author-id*="440990343899643943"] {
   --name-dummy-transparent: transparent; --name-dummy-1: 1;
   --name-gradient: #7289da, #33cf33;
@@ -19,7 +19,7 @@
 
 /*DanKGooGLy#1337*/
 [user_by_bdfdb*="348918040248713217"],
-[data-user-id*="348918040248713217"],
+[data-user-id*="348918040248713217"] + *,
 [data-author-id*="348918040248713217"] {
   --name-dummy-transparent: transparent; --name-dummy-1: 1;
   --name-gradient: #301394, #6a0dad;
@@ -28,7 +28,7 @@
 
     /*AAGaming2#7984*/
   [user_by_bdfdb*="634500033366065186"],
-  [data-user-id*="634500033366065186"],
+  [data-user-id*="634500033366065186"] + *,
   [data-author-id*="634500033366065186"] {
     --name-dummy-transparent: transparent; --name-dummy-1: 1;
     --name-gradient: #dc175b, #eea312;

@@ -29,7 +29,7 @@ Template to follow for manual PR:
 ```css
 /*YOUR_USERNAME#YOUR_DISCRIMINATOR_TAG*/
 [user_by_bdfdb*="YOUR_USER_ID_HERE"],
-[data-user-id*="YOUR_USER_ID_HERE"],
+[data-user-id*="YOUR_USER_ID_HERE"] + *,
 [data-author-id*="YOUR_USER_ID_HERE"] {
   --name-dummy-transparent: transparent; --name-dummy-1: 1;
   --name-gradient: COLOR1, COLOR2;
