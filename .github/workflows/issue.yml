@@ -22,6 +22,6 @@ jobs:
       # Node.js script can be anywhere. A good convention is to put local GitHub Actions
       # into the `.github/actions` folder
       - name: "Handle issue"
-      - run: node ./index.js
+        run: node ./index.js
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
