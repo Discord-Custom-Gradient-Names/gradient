@@ -9,10 +9,10 @@ const { exec } = require('child-process-promise');
 (async () => {
   const issuenumber = await parseInt(process.env.event_number);
   console.log(issuenumber);
-  const { data } = await octokit.request("GET /repos/:owner/:repo/issues/:issue_number", {
+  const issues = await octokit.request("GET /repos/:owner/:repo/issues/:issue_number", {
     owner,
     repo,
-    issue_number
+    issuenumber
   });
   console.log(issues);
   const data = issues.data[0];
@@ -47,7 +47,7 @@ const { exec } = require('child-process-promise');
   const newfile = `${file}\n\n\n${css}`;
   console.log(newfile);
   await fs.appendFile('./database.css', css);
-  const { data } = await octokit.request("PATCH /repos/:owner/:repo/issues/:issue_number", {
+  await octokit.request("PATCH /repos/:owner/:repo/issues/:issue_number", {
     owner,
     repo,
     issue_number,
