@@ -7,16 +7,15 @@ const [ owner, repo ] = process.env.GITHUB_REPOSITORY.split('/');
 const fs = require('fs').promises;
 const { exec } = require('child-process-promise');
 (async () => {
-  const issues = await octokit.issues.listForRepo({
+  const issuenumber = process.env.event_number;
+  const issues = await octokit.issues.get({
     owner,
     repo,
-    sort: 'created',
-    state: 'open'
+    issuenumber
   }
   );
-  console.log(issues.data[0]);
+  console.log(issues);
   const data = issues.data[0];
-  const { number } = data;
   const file = await fs.readFile('./database.css');
   console.log(file);
   console.log(data.body);
@@ -51,7 +50,7 @@ const { exec } = require('child-process-promise');
   await octokit.issues.update({
     owner,
     repo,
-    number
+    issuenumber
   }, { state: 'closed' });
   const { stdout } = await exec('git add ./database.css');
   console.log(stdout);
