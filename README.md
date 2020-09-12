@@ -1,5 +1,7 @@
-<h1 align=center>Discord Custom Gradient Names</h1> <a align=right href="https://discord.gg/Cka4prH"><img src="https://discordapp.com/api/guilds/754130139415183401/widget.png?style=shield"</img></a>
+<h1 align=center>Discord Custom Gradient Names</h1> 
 
+[![Discord Server](https://discordapp.com/api/guilds/754130139415183401/widget.png?style=shield)](https://discord.gg/Cka4prH)
+![Handle Request](https://github.com/Discord-Custom-Gradient-Names/gradient/workflows/Handle%20Request/badge.svg?branch=master&event=issues)
 ## Importing
 To import, add this **at the top** of your QuickCSS / CustomCSS
 ```css
