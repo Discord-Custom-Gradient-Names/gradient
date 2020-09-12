@@ -5,7 +5,7 @@ on:
 jobs:
   handle-request:
     runs-on: ubuntu-latest
-    if: "contains(toJSON(github.event.issue.title), '[build]')"
+    if: "contains(toJSON(github.event.issue.title), 'and rebuild css')"
     steps:
       # Check out code using git
       - uses: actions/checkout@v2
