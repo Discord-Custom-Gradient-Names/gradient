@@ -49,8 +49,11 @@ const { exec } = require('child-process-promise');
     number,
     state: 'closed'
   });
-  await exec('git add ./database.css', { cwd: '../' });
-  await exec(`git commit -m Add ${issuebody.username}`, { cwd: '../' });
-  await exec('git push', { cwd: '../' });
+  const { stdout } = await exec('git add ./database.css', { cwd: '../' });
+  console.log(stdout);
+  const { stdout2 } = await exec(`git commit -m Add ${issuebody.username}`, { cwd: '../' });
+  console.log(stdout2);
+  const { stdout3 } = await exec('git push', { cwd: '../' });
+  console.log(stdout3);
   console.log('Done!');
 })();
