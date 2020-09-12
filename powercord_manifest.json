@@ -1,8 +1,8 @@
 {
-    "name": "gradients",
-    "description": "gradient names db",
+    "name": "Custom Gradient Names",
+    "description": "Custom Gradient Names, a database of user requested custom chat name gradients.",
     "version": "0.1",
-    "author": "AryToNeX",
+    "author": "AAGaming, botato",
     "license": "unknown",
     "theme": "main.css"
 }
