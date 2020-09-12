@@ -64,7 +64,7 @@
                     newdata.color2 = $("[color2]").val()
                     newdata.userID = json.id
                     newdata.username = `${json.username}#${json.discriminator}`
-                    if (!$("[angle]").val()) {
+                    if ($("[angle]").val()) {
                         newdata.angle = $("[angle]").val()
                     }
                     window.location = "https://github.com/Discord-Custom-Gradient-Names/gradient/issues/new?title=Add Me&body=" + encodeURIComponent(JSON.stringify(newdata));
