@@ -1,0 +1,27 @@
+name: My Node Action
+on:
+  issues:
+    types: [opened]
+jobs:
+  my-action:
+    runs-on: ubuntu-latest
+    defaults:  
+       run:  
+         working-directory: ./action
+    steps:
+      # Check out code using git
+      - uses: actions/checkout@v2
+      # Install Node 12
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 14
+      - uses: egordm/gha-yarn-node-cache@v1
+      - uses: CultureHQ/actions-yarn@v1.0.1 
+        with:
+          args: install
+      # Node.js script can be anywhere. A good convention is to put local GitHub Actions
+      # into the `.github/actions` folder
+      - name: "Handle issue"
+      - run: node .github/actions/my-script.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
