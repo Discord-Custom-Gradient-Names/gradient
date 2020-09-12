@@ -41,7 +41,7 @@ jobs:
         run: git add -A .
 
       - name: commit
-        run: git commit -m "Minify CSS"
+        run: git commit --amend --no-edit
 
       - name: Push changes
         uses: ad-m/github-push-action@master
