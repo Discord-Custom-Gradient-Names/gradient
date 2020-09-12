@@ -27,3 +27,6 @@ Template to follow:
   --name-gradient-angle: ROTATION;
 }
 ```
+
+## Support Server
+[![Discord Server](https://discordapp.com/api/guilds/754130139415183401/widget.png?style=banner2)](https://discord.gg/Cka4prH)
