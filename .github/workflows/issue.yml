@@ -3,7 +3,7 @@ on:
   issues:
     types: [opened]
 jobs:
-  my-action:
+  handle-request:
     runs-on: ubuntu-latest
     steps:
       # Check out code using git
@@ -11,7 +11,7 @@ jobs:
         with:
           persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
           fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
-      # Install Node 12
+      # Install Node 14
       - uses: actions/setup-node@v1
         with:
           node-version: 14
