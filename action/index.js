@@ -57,4 +57,3 @@ const { exec } = require('child-process-promise');
   console.log(stdout2);
   console.log('Done!');
 })();
-
