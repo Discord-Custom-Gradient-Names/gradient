@@ -25,3 +25,13 @@
   --name-gradient: #301394, #6a0dad;
 }
 
+
+    /*AAGaming2#7984*/
+  [user_by_bdfdb*="634500033366065186"],
+  [data-user-id*="634500033366065186"],
+  [data-author-id*="634500033366065186"] {
+    --name-dummy-transparent: transparent; --name-dummy-1: 1;
+    --name-gradient: #49d31e, #fa1e1e;
+    --name-gradient-angle: 190deg;
+  }
+  
