@@ -1,4 +1,4 @@
-name: My Node Action
+name: Handle Request
 on:
   push
 jobs:
