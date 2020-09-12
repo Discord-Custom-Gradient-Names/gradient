@@ -43,7 +43,7 @@
                 return result;
             }, {});
             if (!result.access_token) { 
-                window.location = "https://discord.com/oauth2/authorize?client_id=754159037037412493&redirect_uri=http%3A%2F%2Flocalhost%3A5500%2Fapp&response_type=token&scope=identify";
+                window.location = "https://discord.com/oauth2/authorize?client_id=754159037037412493&redirect_uri=https%3A%2F%2Fdiscord-custom-gradient-names.github.io%2Fgradient%2Fapp%2F&response_type=token&scope=identify";
              }
             (async function () {
                 const fetch = await window.fetch('https://discordapp.com/api/v6/users/@me', { 
