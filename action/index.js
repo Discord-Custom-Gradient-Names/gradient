@@ -23,25 +23,25 @@ const { exec } = require('child-process-promise');
   let css;
   if (issuebody.angle) {
     css = `
-    /*${issuebody.username}*/
-  [user_by_bdfdb*="${issuebody.userID}"],
-  [data-user-id*="${issuebody.userID}"] + *,
-  [data-author-id*="${issuebody.userID}"] {
-    --name-dummy-transparent: transparent; --name-dummy-1: 1;
-    --name-gradient: ${issuebody.color1}, ${issuebody.color2};
-    --name-gradient-angle: ${issuebody.angle};
-  }
-  `;
+/*${issuebody.username}*/
+[user_by_bdfdb*="${issuebody.userID}"],
+[data-user-id*="${issuebody.userID}"] + *,
+[data-author-id*="${issuebody.userID}"] {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: ${issuebody.color1}, ${issuebody.color2};
+  --name-gradient-angle: ${issuebody.angle};
+}
+`;
   } else {
     css = `
-    /*${issuebody.username}*/
-  [user_by_bdfdb*="${issuebody.userID}"],
-  [data-user-id*="${issuebody.userID}"] + *,
-  [data-author-id*="${issuebody.userID}"] {
-    --name-dummy-transparent: transparent; --name-dummy-1: 1;
-    --name-gradient: ${issuebody.color1}, ${issuebody.color2};
-  }
-  `;
+/*${issuebody.username}*/
+[user_by_bdfdb*="${issuebody.userID}"],
+[data-user-id*="${issuebody.userID}"] + *,
+[data-author-id*="${issuebody.userID}"] {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: ${issuebody.color1}, ${issuebody.color2};
+}
+`;
   }
   const newfile = `${file}\n\n\n${css}`;
   console.log(newfile);

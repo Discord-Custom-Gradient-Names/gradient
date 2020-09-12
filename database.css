@@ -26,12 +26,12 @@
 }
 
 
-    /*AAGaming2#7984*/
-  [user_by_bdfdb*="634500033366065186"],
-  [data-user-id*="634500033366065186"] + *,
-  [data-author-id*="634500033366065186"] {
-    --name-dummy-transparent: transparent; --name-dummy-1: 1;
-    --name-gradient: #dc175b, #eea312;
-    --name-gradient-angle: 190deg;
-  }
+/*AAGaming2#7984*/
+[user_by_bdfdb*="634500033366065186"],
+[data-user-id*="634500033366065186"] + *,
+[data-author-id*="634500033366065186"] {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #dc175b, #eea312;
+  --name-gradient-angle: 190deg;
+}
   
