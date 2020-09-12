@@ -14,7 +14,7 @@ const { exec } = require('child-process-promise');
   console.log(issues.data[0]);
   const data = issues.data[0];
   const { number } = data;
-  const file = await fs.readFile('../database.css');
+  const file = await fs.readFile('./database.css');
   console.log(file);
   const issuebody = JSON.parse(data.body);
   let css;
@@ -49,11 +49,11 @@ const { exec } = require('child-process-promise');
     number,
     state: 'closed'
   });
-  const { stdout } = await exec('git add ./database.css', { cwd: '../' });
+  const { stdout } = await exec('git add ./database.css');
   console.log(stdout);
-  const { stdout2 } = await exec(`git commit -m Add ${issuebody.username}`, { cwd: '../' });
+  const { stdout2 } = await exec(`git commit -m Add ${issuebody.username}`);
   console.log(stdout2);
-  const { stdout3 } = await exec('git push', { cwd: '../' });
+  const { stdout3 } = await exec('git push');
   console.log(stdout3);
   console.log('Done!');
 })();
