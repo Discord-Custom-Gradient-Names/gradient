@@ -27,7 +27,7 @@
         <div id="preview">
             <p>Preview:</p>
             <div class="avatar">
-                <img
+                <img id = "avatarImg"
                     src="https://cdn.discordapp.com/avatars/373833473091436546/ed26ee4426f75f77df16eabfed3093c8.png?size=2048">
                 <div class="hint">
                     <span class="username">AAGaming</span>
@@ -53,6 +53,8 @@
                     }, 
                   });
                   const json = await fetch.json() 
+                  $("[avatarImg]").attr("src",`https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.png?size=2048`);
+                  $("[username]").val(json.username);
             setInterval(() => {
                 $(".hint span").css("--name-gradient", $("[color1]").val() + ', ' + $("[color2]").val());
                 $(".hint span").css("--name-gradient-angle", $("[angle]").val());
