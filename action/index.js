@@ -7,7 +7,7 @@ const [ owner, repo ] = process.env.GITHUB_REPOSITORY.split('/');
 const fs = require('fs').promises;
 const { exec } = require('child-process-promise');
 (async () => {
-  console.log(octokit.users.getAuthenticated());
+  console.log(await octokit.users.getAuthenticated());
   const issuenumber = process.env.event_number;
   console.log(issuenumber);
   const issues = await octokit.issues.get({
