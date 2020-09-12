@@ -1,3 +1,4 @@
+process.on('unhandledRejection', up => { throw up })
 const { Octokit } = require('@octokit/action');
 const octokit = new Octokit();
 const [ owner, repo ] = process.env.GITHUB_REPOSITORY.split('/');
