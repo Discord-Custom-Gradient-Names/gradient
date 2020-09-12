@@ -26,7 +26,6 @@ jobs:
       - name: Auto Minify
         uses: nizarmah/auto-minify@master
         with:
-          maxdepth: 1
           output: ./dist
 
       # Auto commits minified files to the repository
