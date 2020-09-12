@@ -8,6 +8,8 @@ jobs:
     steps:
       # Check out code using git
       - uses: actions/checkout@v2
+        persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+        fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
       # Install Node 12
       - uses: actions/setup-node@v1
         with:
@@ -21,3 +23,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           event_number: ${{ github.event.issue.number }}
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
