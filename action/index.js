@@ -16,7 +16,8 @@ const { exec } = require('child-process-promise');
   const { number } = data;
   const file = await fs.readFile('./database.css');
   console.log(file);
-  const issuebody = data.body;
+  const issuebody = JSON.parse(data.body);
+  console.log(issuebody);
   let css;
   if (issuebody.angle) {
     css = `
