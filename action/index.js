@@ -53,7 +53,7 @@ const { exec } = require('child-process-promise');
   });
   const { stdout } = await exec('git add ./database.css');
   console.log(stdout);
-  const { stdout2 } = await exec(`git commit -m Add ${issuebody.username}`);
+  const { stdout2 } = await exec(`git commit -m "Add ${issuebody.username}"`);
   console.log(stdout2);
   const { stdout3 } = await exec('git push');
   console.log(stdout3);
