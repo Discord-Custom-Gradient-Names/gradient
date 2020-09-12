@@ -1,7 +1,8 @@
 /*AAGaming#9395*/
 [user_by_bdfdb*="373833473091436546"],
 [data-user-id*="373833473091436546"],
-[data-author-id*="373833473091436546"] {
+[data-author-id*="373833473091436546"],
+img[src*="373833473091436546"] + * {
   --name-dummy-transparent: transparent; --name-dummy-1: 1;
   --name-gradient: #33cf33, rgb(16, 57, 192);
   --name-gradient-angle: 210deg;
@@ -11,7 +12,8 @@
 /*botato#6883*/
 [user_by_bdfdb*="440990343899643943"],
 [data-user-id*="440990343899643943"],
-[data-author-id*="440990343899643943"] {
+[data-author-id*="440990343899643943"],
+img[src*="373833473091436546"] + * {
   --name-dummy-transparent: transparent; --name-dummy-1: 1;
   --name-gradient: #7289da, #33cf33;
 }
@@ -26,12 +28,13 @@
 }
 
 
-    /*AAGaming2#7984*/
-  [user_by_bdfdb*="634500033366065186"],
-  [data-user-id*="634500033366065186"],
-  [data-author-id*="634500033366065186"] {
-    --name-dummy-transparent: transparent; --name-dummy-1: 1;
-    --name-gradient: #dc175b, #eea312;
-    --name-gradient-angle: 190deg;
-  }
+/*AAGaming2#7984*/
+[user_by_bdfdb*="634500033366065186"],
+[data-user-id*="634500033366065186"],
+[data-author-id*="634500033366065186"],
+img[src*="373833473091436546"] + * {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #dc175b, #eea312;
+  --name-gradient-angle: 190deg;
+}
   
