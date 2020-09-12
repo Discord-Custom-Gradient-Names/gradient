@@ -23,11 +23,17 @@ jobs:
       - uses: actions/checkout@v2
 
 
-      - name: Auto Minify
+      - name: Auto Minify CSS
         uses: nizarmah/auto-minify@master
         with:
           output: ./dist
+          maxdepth: 1
 
+      - name: Auto Minify
+        uses: nizarmah/auto-minify@master
+        with:
+          directory: ./app
+          output: ./app-dist
       # Auto commits minified files to the repository
       # Ignore it if you don't want to commit the files to the repository 
       - name: Auto committing minified files
