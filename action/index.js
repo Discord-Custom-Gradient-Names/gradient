@@ -8,6 +8,7 @@ const fs = require('fs').promises;
 const { exec } = require('child-process-promise');
 (async () => {
   const issuenumber = process.env.event_number;
+  console.log(issuenumber);
   const issues = await octokit.issues.get({
     owner,
     repo,
