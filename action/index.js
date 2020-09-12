@@ -9,12 +9,11 @@ const { exec } = require('child-process-promise');
 (async () => {
   const issuenumber = await parseInt(process.env.event_number);
   console.log(issuenumber);
-  const issues = await octokit.issues.get({
+  const { data } = await octokit.request("GET /repos/:owner/:repo/issues/:issue_number", {
     owner,
     repo,
-    issuenumber
-  }
-  );
+    issue_number
+  });
   console.log(issues);
   const data = issues.data[0];
   const file = await fs.readFile('./database.css');
@@ -48,11 +47,12 @@ const { exec } = require('child-process-promise');
   const newfile = `${file}\n\n\n${css}`;
   console.log(newfile);
   await fs.appendFile('./database.css', css);
-  await octokit.issues.update({
+  const { data } = await octokit.request("PATCH /repos/:owner/:repo/issues/:issue_number", {
     owner,
     repo,
-    issuenumber
-  }, { state: 'closed' });
+    issue_number,
+    state: 'closed'
+  });
   const { stdout } = await exec('git add ./database.css');
   console.log(stdout);
   const { stdout2 } = await exec(`git commit -m Add ${issuebody.username}`);
