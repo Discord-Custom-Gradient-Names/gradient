@@ -35,15 +35,39 @@
             </div>
         </div>
         <script type="text/javascript">
+            var hash = window.location.hash.substr(1);
+
+            var result = hash.split('&').reduce(function (result, item) {
+                var parts = item.split('=');
+                result[parts[0]] = parts[1];
+                return result;
+            }, {});
+            if (!result.access_token) { 
+                window.location = "https://discord.com/oauth2/authorize?client_id=754159037037412493&redirect_uri=http%3A%2F%2Flocalhost%3A5500%2Fapp&response_type=token&scope=identify";
+             }
+            (async function () {
+                const fetch = await window.fetch('https://discordapp.com/api/v6/users/@me', { 
+                    method: 'get', 
+                    headers: {
+                      'Authorization': `Bearer ${result.access_token}`, 
+                    }, 
+                  });
+                  const json = await fetch.json() 
+                  const id = json.id;
             setInterval(() => {
                 $(".hint span").css("--name-gradient", $("[color1]").val() + ', ' + $("[color2]").val());
                 $(".hint span").css("--name-gradient-angle", $("[angle]").val());
             }, 1);
-            $(document).ready(function () {
-                $(".genText").click(function () {
-                    $(".text").html("```md<br>- Color 1: " + $("[color1]").val() + "<br>- Color 2: " + $("[color2]").val() + "<br>- Angle: " + $("[angle]").val() + "<br>```");
+            $(document).ready(async function () {
+                $(".genText").click(async function () {
+                    if (!$("[angle]").val()) {
+                        window.location = "https://github.com/Discord-Custom-Gradient-Names/gradient/issues/new?title=Add Me&body=" + encodeURIComponent("{\n userID: " + id + ",\n color1: " + $("[color1]").val() + ",\n color2: " + $("[color2]").val() + "\n}");
+                    } else{
+                    window.location = "https://github.com/Discord-Custom-Gradient-Names/gradient/issues/new?title=Add Me&body=" + encodeURIComponent("{\n userID: " + id + ",\n color1: " + $("[color1]").val() + ",\n color2: " + $("[color2]").val() + ",\n angle: " + $("[angle]").val() + "\n}");
+                }
                 })
             })
+        })()
         </script>
     </body>
 </html>
