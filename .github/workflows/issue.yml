@@ -1,6 +1,7 @@
 name: Handle Request
 on:
-  push
+  issues:
+    types: [opened]
 jobs:
   my-action:
     runs-on: ubuntu-latest
