@@ -5,7 +5,7 @@
 ![Minify CSS](https://github.com/Discord-Custom-Gradient-Names/gradient/workflows/Minify%20CSS/badge.svg?event=push)
 [![GitHub License](https://img.shields.io/github/license/Discord-Custom-Gradient-Names/gradient.svg)](https://github.com/Discord-Custom-Gradient-Names/gradient/blob/master/LICENSE)
 ![Stars](https://img.shields.io/github/stars/Discord-Custom-Gradient-Names/gradient.svg)
-
+[![CodeFactor](https://www.codefactor.io/repository/github/discord-custom-gradient-names/gradient/badge)](https://www.codefactor.io/repository/github/discord-custom-gradient-names/gradient)
 ## Importing
 To import, add this **at the top** of your QuickCSS / CustomCSS
 ```css
