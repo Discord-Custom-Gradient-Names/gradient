@@ -59,3 +59,14 @@ img[src*="431883840483491850"] + * {
   --name-dummy-transparent: transparent; --name-dummy-1: 1;
   --name-gradient: #ad5389, #3c1053;
 }
+
+/*DracoClaw#0065*/
+[user_by_bdfdb*="341680387979870219"],
+[data-user-id*="341680387979870219"] + *,
+[data-author-id*="341680387979870219"],
+img[src*="341680387979870219"] + * {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #d578f2, #ff00ff;
+  --name-gradient-angle: 225deg;
+}
+  
