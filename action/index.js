@@ -42,7 +42,7 @@ const { exec } = require('child-process-promise');
   }
   const newfile = `${file}\n\n\n${css}`;
   console.log(newfile);
-  await fs.appendFile('../database.css', css);
+  await fs.appendFile('./database.css', css);
   await octokit.issues.update({
     owner,
     repo,
