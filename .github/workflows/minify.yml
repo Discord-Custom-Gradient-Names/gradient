@@ -40,5 +40,5 @@ jobs:
       - name: Auto committing minified files
         uses: stefanzweifel/git-auto-commit-action@v3.0.0
         with:
-          commit_message: "minify"
+          commit_message: "minify css"
           branch: ${{ github.ref }}
