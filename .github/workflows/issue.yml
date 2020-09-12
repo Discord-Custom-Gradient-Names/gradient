@@ -16,9 +16,12 @@ jobs:
         with:
           node-version: 14
       - uses: egordm/gha-yarn-node-cache@v1
+        with: 
+         working-directory: action
       - uses: CultureHQ/actions-yarn@v1.0.1 
         with:
           args: install
+          working-directory: action:  
       # Node.js script can be anywhere. A good convention is to put local GitHub Actions
       # into the `.github/actions` folder
       - name: "Handle issue"
