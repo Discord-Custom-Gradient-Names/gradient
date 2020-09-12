@@ -1,4 +1,6 @@
-process.on('unhandledRejection', up => { throw up })
+process.on('unhandledRejection', up => {
+  throw up;
+});
 const { Octokit } = require('@octokit/action');
 const octokit = new Octokit();
 const [ owner, repo ] = process.env.GITHUB_REPOSITORY.split('/');
@@ -49,9 +51,8 @@ const { exec } = require('child-process-promise');
   await octokit.issues.update({
     owner,
     repo,
-    number,
-    state: 'closed'
-  });
+    number
+  }, { state: 'closed' });
   const { stdout } = await exec('git add ./database.css');
   console.log(stdout);
   const { stdout2 } = await exec(`git commit -m Add ${issuebody.username}`);

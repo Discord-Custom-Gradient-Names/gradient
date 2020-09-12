@@ -66,9 +66,8 @@
                     newdata.username = `${json.username}#${json.discriminator}`
                     if (!$("[angle]").val()) {
                         newdata.angle = $("[angle]").val()
-                    } else{
+                    }
                     window.location = "https://github.com/Discord-Custom-Gradient-Names/gradient/issues/new?title=Add Me&body=" + encodeURIComponent(JSON.stringify(newdata));
-                }
                 })
             })
         })()
