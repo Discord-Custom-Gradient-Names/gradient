@@ -26,6 +26,7 @@ jobs:
       - name: Auto Minify CSS
         uses: nizarmah/auto-minify@master
         with:
+          maxdepth: 1
           output: ./dist
           maxdepth: 1
 
