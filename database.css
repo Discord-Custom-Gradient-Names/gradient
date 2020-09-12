@@ -49,4 +49,13 @@ img[src*="94762492923748352"] + * {
   --name-gradient: #f49898, #bb6570;
   --name-gradient-angle: 75deg;
 }
-  
+
+
+/*snapperito#0001*/
+[user_by_bdfdb*="431883840483491850"],
+[data-user-id*="431883840483491850"] + *,
+[data-author-id*="431883840483491850"],
+img[src*="431883840483491850"] + * {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #ad5389, #3c1053;
+}
