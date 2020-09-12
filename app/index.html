@@ -59,10 +59,15 @@
             }, 1);
             $(document).ready(async function () {
                 $(".genText").click(async function () {
+                    let newdata = {}
+                    newdata.color1 = $("[color1]").val()
+                    newdata.color2 = $("[color2]").val()
+                    newdata.userID = json.id
+                    newdata.username = `${json.username}#${json.discriminator}`
                     if (!$("[angle]").val()) {
-                        window.location = "https://github.com/Discord-Custom-Gradient-Names/gradient/issues/new?title=Add Me&body=" + encodeURIComponent("{\n userID: " + json.id + ",\n user: " + `${json.username}#${json.discriminator}` + ",\n color1: " + $("[color1]").val() + ",\n color2: " + $("[color2]").val() + "\n}");
+                        newdata.angle = $("[angle]").val()
                     } else{
-                    window.location = "https://github.com/Discord-Custom-Gradient-Names/gradient/issues/new?title=Add Me&body=" + encodeURIComponent("{\n userID: " + json.id + ",\n user: " + `${json.username}#${json.discriminator}` + ",\n color1: " + $("[color1]").val() + ",\n color2: " + $("[color2]").val() + ",\n angle: " + $("[angle]").val() + "\n}");
+                    window.location = "https://github.com/Discord-Custom-Gradient-Names/gradient/issues/new?title=Add Me&body=" + encodeURIComponent(JSON.stringify(newdata));
                 }
                 })
             })
