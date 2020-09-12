@@ -2,7 +2,7 @@
 
 [![Discord Server](https://discordapp.com/api/guilds/754130139415183401/widget.png?style=shield)](https://discord.gg/Cka4prH)
 ![Handle Request](https://github.com/Discord-Custom-Gradient-Names/gradient/workflows/Handle%20Request/badge.svg?branch=master&event=issues)
-![Minify CSS](https://github.com/Discord-Custom-Gradient-Names/gradient/workflows/Minify%20CSS/badge.svg)
+![Minify CSS](https://github.com/Discord-Custom-Gradient-Names/gradient/workflows/Minify%20CSS/badge.svg?event=push)
 ## Importing
 To import, add this **at the top** of your QuickCSS / CustomCSS
 ```css
