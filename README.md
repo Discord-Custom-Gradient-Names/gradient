@@ -14,9 +14,9 @@ or go into your powercord themes folder and paste `git clone https://github.com/
 If you are using BetterDiscord, you MUST have a plugin by DevilBro running, as we require his library for certain, but important data attributes (`user_by_bdfdb`).
 
 ## Adding your Custom Gradient Name to the Database
-To add it, shoot us over a Pull Request with your Custom Gradient Name (must follow template below!) at the end of the [main.css](https://github.com/Discord-Custom-Gradient-Names/gradient/main.css) file.
+To add it, use [this generator](https://discord-custom-gradient-names.github.io/gradient/app/)(only works in chrome) and paste the result in the ``#gradient-names`` channel in discord, or shoot us over a Pull Request with your Custom Gradient Name (must follow template below!) at the end of the [main.css](https://github.com/Discord-Custom-Gradient-Names/gradient/main.css) file.
 
-Template to follow: 
+Template to follow for manual PR: 
 ```css
 /*YOUR_USERNAME#YOUR_DISCRIMINATOR_TAG*/
 [user_by_bdfdb*="YOUR_USER_ID_HERE"],
