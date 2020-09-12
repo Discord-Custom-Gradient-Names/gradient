@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:  
        run:  
-         working-directory: ./action
+         working-directory: action
     steps:
       # Check out code using git
       - uses: actions/checkout@v2
