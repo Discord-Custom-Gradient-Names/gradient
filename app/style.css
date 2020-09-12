@@ -139,7 +139,6 @@ body::before {
 }
 
 input {
-  border: none;
   background: #0004;
   padding: 3px;
   outline: none;
