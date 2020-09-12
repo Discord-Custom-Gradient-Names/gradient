@@ -9,5 +9,6 @@ const [ owner, repo ] = process.env.GITHUB_REPOSITORY.split('/');
     state: 'open'
   }
   );
-  console.log(issues);
+  console.log(issues.data[0]);
+  const json = JSON.parse(issues.data[0]);
 })();
