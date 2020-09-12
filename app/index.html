@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Custom Avatar Hint Preview</title>
+        <link rel="stylesheet" href="style.css">
+<style>
+:root{
+    --name-dummy-transparent: transparent;
+    --name-dummy-1: 1;
+}
+</style>
+        <link rel="stylesheet" href="https://discord-custom-gradient-names.github.io/gradient/main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://bgrins.github.io/spectrum/spectrum.js"></script> <!--if ur browser is ancient  -->
+    </head>
+    <body>
+        <div id="settings">
+            <form>
+                Color 1: <input color1 type="color" id="color1" value=""><br><br>
+                Color 2): <input color2 type="color" value="14px"><br><br>
+                Angle, ex. 10deg(blank=LTR): <input angle type="text" value=""><br><br>
+            </form>
+            <div id="output">
+                <button class="genText">Generate text</button><br>
+                <p class="text"></p>
+            </div>
+        </div>
+        <div id="preview">
+            <p>Preview:</p>
+            <div class="avatar">
+                <img
+                    src="https://cdn.discordapp.com/avatars/373833473091436546/ed26ee4426f75f77df16eabfed3093c8.png?size=2048">
+                <div class="hint">
+                    <span class="username">AAGaming</span>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            setInterval(() => {
+                $(".hint span").css("--name-gradient", $("[color1]").val() + ', ' + $("[color2]").val());
+                $(".hint span").css("--name-gradient-angle", $("[angle]").val());
+            }, 1);
+            $(document).ready(function () {
+                $(".genText").click(function () {
+                    $(".text").html("```md<br>- Color 1: " + $("[color1]").val() + "<br>- Color 2: " + $("[color2]").val() + "<br>- Angle: " + $("[angle]").val() + "<br>```");
+                })
+            })
+        </script>
+    </body>
+</html>
