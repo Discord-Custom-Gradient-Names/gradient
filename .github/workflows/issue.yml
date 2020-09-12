@@ -29,10 +29,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           event_number: ${{ github.event.issue.number }}
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
       - name: Auto Minify
         uses: nizarmah/auto-minify@master
         with:
@@ -44,8 +40,10 @@ jobs:
       - name: Add changes to Git tracking
         run: git add -A .
 
-      - name: Commit changes
-        uses: gha-utilities/workspace-commit@v0.0.3
+      - name: commit
+        run: git commit -m "Minify CSS"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
         with:
-          message: Updates compiled site files
-          all: true
+          github_token: ${{ secrets.GITHUB_TOKEN }}
