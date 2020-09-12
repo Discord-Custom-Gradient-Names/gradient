@@ -2,7 +2,7 @@ const { Octokit } = require('@octokit/action');
 const octokit = new Octokit();
 const [ owner, repo ] = process.env.GITHUB_REPOSITORY.split('/');
 const fs = require('fs').promises;
-const { exec } = require('promisify-child-process');
+const { exec } = require('child-process-promise');
 (async () => {
   const issues = await octokit.issues.listForRepo({
     owner,

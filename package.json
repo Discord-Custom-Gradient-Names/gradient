@@ -5,6 +5,6 @@
   "license": "MIT",
   "dependencies": {
     "@octokit/action": "^3.1.0",
-    "promisify-child-process": "https://github.com/jcoreio/promisify-child-process"
+    "child-process-promise": "^2.2.1"
   }
 }
