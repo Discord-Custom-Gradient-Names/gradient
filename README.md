@@ -9,7 +9,7 @@
 ## Importing
 To import, add this **at the top** of your QuickCSS / CustomCSS
 ```css
-@import url('https://discord-custom-gradient-names.github.io/gradient/main.css');
+@import url('https://discord-custom-gradient-names.github.io/gradient/dist/main.min.css');
 ```
 or go into your powercord themes folder and paste `git clone https://github.com/Discord-Custom-Gradient-Names/gradient.git`, and then refresh discord
 
