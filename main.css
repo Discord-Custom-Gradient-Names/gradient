@@ -1,11 +1,17 @@
+/* Import the Database */
 @import url('https://discord-custom-gradient-names.github.io/gradient/database.css');
-[class*="username"], [class*="nameTag"] {
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: var(--name-dummy-transparent);
-	background-clip: text;
-	text-fill-color: var(--name-dummy-transparent);
-	background-image: linear-gradient(var(--name-gradient-angle, to right), var(--name-gradient));
+
+
+/* Actual Code */
+[class*="username"],
+[class*="nameTag"] {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: var(--name-dummy-transparent);
+  background-clip: text;
+  text-fill-color: var(--name-dummy-transparent);
+  background-image: linear-gradient(var(--name-gradient-angle, to right), var(--name-gradient));
+  text-decoration: underline;
 }
 [class*="discriminator"] {
-	opacity: var(--name-dummy-1);
+  opacity: var(--name-dummy-1);
 }
