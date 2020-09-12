@@ -39,3 +39,14 @@ img[src*="634500033366065186"] + * {
   --name-gradient-angle: 190deg;
 }
 
+
+/*Bowser65#0001*/
+[user_by_bdfdb*="94762492923748352"],
+[data-user-id*="94762492923748352"] + *,
+[data-author-id*="94762492923748352"],
+img[src*="94762492923748352"] + * {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #f49898, #bb6570;
+  --name-gradient-angle: 75deg;
+}
+  
