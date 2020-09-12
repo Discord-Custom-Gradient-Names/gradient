@@ -53,8 +53,8 @@
                     }, 
                   });
                   const json = await fetch.json() 
-                  $("[avatarImg]").attr("src",`https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.png?size=2048`);
-                  $("[username]").val(json.username);
+                  $("#avatarImg").attr("src",`https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.png?size=2048`);
+                  $(".username").text(json.username);
             setInterval(() => {
                 $(".hint span").css("--name-gradient", $("[color1]").val() + ', ' + $("[color2]").val());
                 $(".hint span").css("--name-gradient-angle", $("[angle]").val());
