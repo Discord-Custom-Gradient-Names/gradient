@@ -20,6 +20,10 @@ jobs:
       - uses: Jaid/action-npm-install@v1.2.4
       # Node.js script can be anywhere. A good convention is to put local GitHub Actions
       # into the `.github/actions` folder
+      - name: Turnstyle
+        uses: softprops/turnstyle@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Set up Git
         run: |
           git config --local user.email "action@github.com"
