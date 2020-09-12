@@ -23,7 +23,7 @@ const { exec } = require('child-process-promise');
   let css;
   if (issuebody.angle) {
     css = `
-    /*${issuebody.username}*/
+/*${issuebody.username}*/
 [user_by_bdfdb*="${issuebody.userID}"],
 [data-user-id*="${issuebody.userID}"],
 [data-author-id*="${issuebody.userID}"],
