@@ -12,7 +12,10 @@
   text-fill-color: var(--name-dummy-transparent);
   background-image: linear-gradient(var(--name-gradient-angle, to right), var(--name-gradient));
 }
-
+[class*="replyUsername"] {
+  --name-dummy-transparent: null;
+  --name-gradient: null;
+}
 [class*="discriminator"] {
   opacity: var(--name-dummy-1);
 }
