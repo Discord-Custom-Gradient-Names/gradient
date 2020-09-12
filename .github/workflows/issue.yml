@@ -1,7 +1,6 @@
 name: My Node Action
 on:
-  issues:
-    types: [opened]
+  push
 jobs:
   my-action:
     runs-on: ubuntu-latest
