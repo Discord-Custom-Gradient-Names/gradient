@@ -14,11 +14,11 @@ const { exec } = require('child-process-promise');
     repo
   });
   console.log(issues);
-  const data = issues.data[0];
+  const { data } = issues;
   const file = await fs.readFile('./database.css');
   console.log(file);
   console.log(data.body);
-  const issuebody = await JSON.parse(unescape(issues.data[0].body));
+  const issuebody = await JSON.parse(unescape(issues.data.body));
   console.log(issuebody);
   let css;
   if (issuebody.angle) {
