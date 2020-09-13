@@ -30,7 +30,7 @@ jobs:
 
 
       - name: Auto Minify
-        uses: nizarmah/auto-minify@master
+        uses: Discord-Custom-Gradient-Names/auto-minify@master
         with:
           maxdepth: 1
           output: ./dist

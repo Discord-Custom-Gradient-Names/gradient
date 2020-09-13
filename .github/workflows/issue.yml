@@ -38,7 +38,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           event_number: ${{ github.event.issue.number }}
       - name: Auto Minify
-        uses: nizarmah/auto-minify@master
+        uses: Discord-Custom-Gradient-Names/auto-minify@master
         with:
           maxdepth: 1
           output: ./dist
