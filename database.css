@@ -70,3 +70,12 @@ img[src*="341680387979870219"] + * {
   --name-gradient-angle: 225deg;
 }
   
+/*Mr. Weeb#8509*/
+[user_by_bdfdb*="421706964612153366"],
+[data-user-id*="421706964612153366"] + *,
+[data-author-id*="421706964612153366"],
+img[src*="421706964612153366"] {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #ff0000, #fb00ff;
+}
+  
