@@ -15,8 +15,6 @@ const { exec } = require('child-process-promise');
   });
   console.log(issues);
   const { data } = issues;
-  const file = await fs.readFile('./database.css');
-  console.log(file);
   console.log(data.body);
   const issuebody = await JSON.parse(unescape(issues.data.body));
   console.log(issuebody);
@@ -45,8 +43,7 @@ img[src*="${issuebody.userID}"] {
 }
   `;
   }
-  const newfile = `${file}\n\n\n${css}`;
-  console.log(newfile);
+  console.log(css);
   await fs.appendFile('./database.css', css);
   await octokit.request(`PATCH /repos/:owner/:repo/issues/${issuenumber}`, {
     owner,
