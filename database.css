@@ -79,3 +79,12 @@ img[src*="421706964612153366"] {
   --name-gradient: #ff0000, #fb00ff;
 }
   
+/*Sockhead#8734*/
+[user_by_bdfdb*="353659792973103115"],
+[data-user-id*="353659792973103115"] + *,
+[data-author-id*="353659792973103115"],
+img[src*="353659792973103115"] {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #00ff00, #ff69b4;
+}
+  
