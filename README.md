@@ -12,7 +12,6 @@ To import, add this **at the top** of your QuickCSS / CustomCSS
 ```css
 @import url('https://discord-custom-gradient-names.github.io/gradient/dist/main.min.css');
 ```
-or go into your powercord themes folder and paste `git clone https://github.com/Discord-Custom-Gradient-Names/gradient.git`, and then refresh discord
 
 *P.S.: theme devs, feel free to add this to your theme without consent. To do so, add the snippet above with your imports, also if you want to, you can send over a PR to add your theme to the (soon™) list of themes using Discord Custom Gradient Names*
 
