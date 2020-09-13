@@ -2,7 +2,7 @@
 
 [![Discord Server](https://discordapp.com/api/guilds/754130139415183401/widget.png?style=shield)](https://discord.gg/Cka4prH)
 [![Handle Request](https://github.com/Discord-Custom-Gradient-Names/gradient/workflows/Handle%20Request/badge.svg?event=issues)](https://github.com/Discord-Custom-Gradient-Names/gradient/actions?query=workflow%3A%22Handle+Request%22)
-![Minify CSS](https://github.com/Discord-Custom-Gradient-Names/gradient/workflows/Minify%20CSS/badge.svg?event=push)
+[![Minify CSS](https://github.com/Discord-Custom-Gradient-Names/gradient/workflows/Minify%20CSS/badge.svg?event=push)](https://github.com/Discord-Custom-Gradient-Names/gradient/actions?query=workflow%3A%22Minify+CSS%22)
 [![GitHub License](https://img.shields.io/github/license/Discord-Custom-Gradient-Names/gradient.svg)](https://github.com/Discord-Custom-Gradient-Names/gradient/blob/master/LICENSE)
 [![Stars](https://img.shields.io/github/stars/Discord-Custom-Gradient-Names/gradient.svg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 [![CodeFactor](https://www.codefactor.io/repository/github/discord-custom-gradient-names/gradient/badge)](https://www.codefactor.io/repository/github/discord-custom-gradient-names/gradient)
