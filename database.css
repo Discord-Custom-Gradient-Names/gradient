@@ -59,3 +59,32 @@ img[src*="431883840483491850"] + * {
   --name-dummy-transparent: transparent; --name-dummy-1: 1;
   --name-gradient: #ad5389, #3c1053;
 }
+
+/*DracoClaw#0065*/
+[user_by_bdfdb*="341680387979870219"],
+[data-user-id*="341680387979870219"] + *,
+[data-author-id*="341680387979870219"],
+img[src*="341680387979870219"] + * {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #d578f2, #ff00ff;
+  --name-gradient-angle: 225deg;
+}
+  
+/*Mr. Weeb#8509*/
+[user_by_bdfdb*="421706964612153366"],
+[data-user-id*="421706964612153366"] + *,
+[data-author-id*="421706964612153366"],
+img[src*="421706964612153366"] {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #ff0000, #fb00ff;
+}
+  
+/*Sockhead#8734*/
+[user_by_bdfdb*="353659792973103115"],
+[data-user-id*="353659792973103115"] + *,
+[data-author-id*="353659792973103115"],
+img[src*="353659792973103115"] {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #00ff00, #ff69b4;
+}
+  
