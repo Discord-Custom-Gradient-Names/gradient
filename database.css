@@ -108,3 +108,13 @@ img[src*="270274137866502154"] + * {
   --name-gradient-angle: 120deg;
 }
   
+/*aus#9711*/
+[user_by_bdfdb*="185865742858715136"],
+[data-user-id*="185865742858715136"] + *,
+[data-author-id*="185865742858715136"],
+[style*="185865742858715136"],
+img[src*="185865742858715136"] {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #ff00ff, #8080c0;
+}
+  
