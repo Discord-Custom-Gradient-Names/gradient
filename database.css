@@ -97,3 +97,24 @@ img[src*="353659792973103115"] {
   --name-gradient: #00ff00, #ff69b4;
 }
   
+/*D4#0212*/
+[user_by_bdfdb*="270274137866502154"],
+[data-user-id*="270274137866502154"] + *,
+[data-author-id*="270274137866502154"],
+[style*="270274137866502154"],
+img[src*="270274137866502154"] + * {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #00ffee, #2bff00;
+  --name-gradient-angle: 120deg;
+}
+  
+/*aus#9711*/
+[user_by_bdfdb*="185865742858715136"],
+[data-user-id*="185865742858715136"] + *,
+[data-author-id*="185865742858715136"],
+[style*="185865742858715136"],
+img[src*="185865742858715136"] {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #ff00ff, #8080c0;
+}
+  
