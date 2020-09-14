@@ -25,6 +25,7 @@ const { exec } = require('child-process-promise');
 [user_by_bdfdb*="${issuebody.userID}"],
 [data-user-id*="${issuebody.userID}"] + *,
 [data-author-id*="${issuebody.userID}"],
+[style*="440990343899643943"],
 img[src*="${issuebody.userID}"] + * {
   --name-dummy-transparent: transparent; --name-dummy-1: 1;
   --name-gradient: ${issuebody.color1}, ${issuebody.color2};
@@ -37,6 +38,7 @@ img[src*="${issuebody.userID}"] + * {
 [user_by_bdfdb*="${issuebody.userID}"],
 [data-user-id*="${issuebody.userID}"] + *,
 [data-author-id*="${issuebody.userID}"],
+[style*="440990343899643943"],
 img[src*="${issuebody.userID}"] {
   --name-dummy-transparent: transparent; --name-dummy-1: 1;
   --name-gradient: ${issuebody.color1}, ${issuebody.color2};
