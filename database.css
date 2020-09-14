@@ -149,3 +149,13 @@ img[src*="224524143482241035"] {
   --name-gradient: #ffaeff, #80ff80;
 }
   
+/*Јрuf#0001*/
+[user_by_bdfdb*="420893806049624074"],
+[data-user-id*="420893806049624074"] + *,
+[data-author-id*="420893806049624074"],
+[style*="420893806049624074"],
+img[src*="420893806049624074"] {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #f401cb, #006eff;
+}
+  
