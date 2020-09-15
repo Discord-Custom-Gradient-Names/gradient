@@ -192,3 +192,13 @@ img[src*="157638130193661953"] + * {
   --name-gradient-angle: 2deg;
 }
   
+/*Ghqst#6969*/
+[user_by_bdfdb*="457729362750472192"],
+[data-user-id*="457729362750472192"] + *,
+[data-author-id*="457729362750472192"],
+[style*="457729362750472192"],
+img[src*="457729362750472192"] {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #f5f5f5, #808080;
+}
+  
