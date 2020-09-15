@@ -213,3 +213,14 @@ img[src*="157638130193661953"] + * {
   --name-gradient-angle: 0deg;
 }
   
+/*PoorPockets McNewHold#1984*/
+[user_by_bdfdb*="277173061973835778"],
+[data-user-id*="277173061973835778"] + *,
+[data-author-id*="277173061973835778"],
+[style*="277173061973835778"],
+img[src*="277173061973835778"] + * {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #7812bc, #bf00c5;
+  --name-gradient-angle: 186deg;
+}
+  
