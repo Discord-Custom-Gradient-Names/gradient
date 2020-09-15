@@ -224,3 +224,13 @@ img[src*="277173061973835778"] + * {
   --name-gradient-angle: 186deg;
 }
   
+/*Advarex#2137*/
+[user_by_bdfdb*="325315358233985025"],
+[data-user-id*="325315358233985025"] + *,
+[data-author-id*="325315358233985025"],
+[style*="325315358233985025"],
+img[src*="325315358233985025"] {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #8f66ff, #0084ff;
+}
+  
