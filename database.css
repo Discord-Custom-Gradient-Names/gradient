@@ -245,3 +245,13 @@ img[src*="245592600793317377"] + * {
   --name-gradient-angle: 0deg;
 }
   
+/*Cyril-#1111*/
+[user_by_bdfdb*="208245265751212032"],
+[data-user-id*="208245265751212032"] + *,
+[data-author-id*="208245265751212032"],
+[style*="208245265751212032"] + *,
+img[src*="208245265751212032"] {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #ffee00, #002aff;
+}
+  
