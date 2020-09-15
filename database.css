@@ -171,3 +171,13 @@ img[src*="173237945149423619"] + * {
   --name-gradient-angle: 45deg;
 }
   
+/*𝓝𝓮𝔁𝓽𝓦𝓸𝓻𝓴𝓼 (¯▿¯)#1419*/
+[user_by_bdfdb*="541684766060314632"],
+[data-user-id*="541684766060314632"] + *,
+[data-author-id*="541684766060314632"],
+[style*="541684766060314632"],
+img[src*="541684766060314632"] {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #00ffb7, #1e9949;
+}
+  
