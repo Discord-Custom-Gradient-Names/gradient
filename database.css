@@ -202,3 +202,14 @@ img[src*="457729362750472192"] {
   --name-gradient: #f5f5f5, #808080;
 }
   
+/*Wamwod#2049*/
+[user_by_bdfdb*="157638130193661953"],
+[data-user-id*="157638130193661953"] + *,
+[data-author-id*="157638130193661953"],
+[style*="157638130193661953"],
+img[src*="157638130193661953"] + * {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #000080, #00ffff;
+  --name-gradient-angle: 0deg;
+}
+  
