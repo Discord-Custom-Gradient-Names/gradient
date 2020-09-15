@@ -160,3 +160,14 @@ img[src*="741488992066994287"] {
   --name-gradient: #ff80c0, #8080ff;
 }
   
+/*Kanin#0001*/
+[user_by_bdfdb*="173237945149423619"],
+[data-user-id*="173237945149423619"] + *,
+[data-author-id*="173237945149423619"],
+[style*="173237945149423619"],
+img[src*="173237945149423619"] + * {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #ff0000, #940000;
+  --name-gradient-angle: 45deg;
+}
+  
