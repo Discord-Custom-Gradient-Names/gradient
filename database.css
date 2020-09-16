@@ -297,3 +297,13 @@ img[src*="488859961724633095"] {
   --name-gradient: #81fbfd, #c7fbff;
 }
   
+/*『✿◉●•◦  𝕱𝖗𝖔𝖘𝖙  ◦•●◉ ✿』#3293*/
+[user_by_bdfdb*="488859961724633095"],
+[data-user-id*="488859961724633095"] + *,
+[data-author-id*="488859961724633095"],
+[style*="488859961724633095"] + *,
+img[src*="488859961724633095"] {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #5fe8f2, #d3ebee;
+}
+  
