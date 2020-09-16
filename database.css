@@ -255,3 +255,13 @@ img[src*="208245265751212032"] {
   --name-gradient: #ffee00, #002aff;
 }
   
+/*hXiboon#0187*/
+[user_by_bdfdb*="682582825043492930"],
+[data-user-id*="682582825043492930"] + *,
+[data-author-id*="682582825043492930"],
+[style*="682582825043492930"] + *,
+img[src*="682582825043492930"] {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #00affa, #ffffff;
+}
+  
