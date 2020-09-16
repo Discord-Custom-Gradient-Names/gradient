@@ -265,3 +265,13 @@ img[src*="682582825043492930"] {
   --name-gradient: #00affa, #ffffff;
 }
   
+/*Curvu#0254*/
+[user_by_bdfdb*="323104036066951168"],
+[data-user-id*="323104036066951168"] + *,
+[data-author-id*="323104036066951168"],
+[style*="323104036066951168"] + *,
+img[src*="323104036066951168"] {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #00ffcc, #fbff00;
+}
+  
