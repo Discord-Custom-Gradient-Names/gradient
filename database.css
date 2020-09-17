@@ -5,7 +5,7 @@
 [style*="373833473091436546"] + *,
 img[src*="373833473091436546"] + * {
   --name-dummy-transparent: transparent; --name-dummy-1: 1;
-  --name-gradient: #33cf33, rgb(16, 57, 192);
+  --name-gradient: #33cf33, #1039c0;
   --name-gradient-angle: 210deg;
 }
 
@@ -94,7 +94,7 @@ img[src*="421706964612153366"] {
 [style*="353659792973103115"] + *,
 img[src*="353659792973103115"] {
   --name-dummy-transparent: transparent; --name-dummy-1: 1;
-  --name-gradient: #00ff00, #ff69b4;
+  --name-gradient: #9bac9b, #ff69b4;
 }
   
 /*D4#0212*/
@@ -127,16 +127,6 @@ img[src*="364616437353938945"] + * {
   --name-dummy-transparent: transparent; --name-dummy-1: 1;
   --name-gradient: #66ff00, #00b3ff;
   --name-gradient-angle: 3deg;
-}
-  
-/*Leeprky#1234*/
-[user_by_bdfdb*="224524143482241035"],
-[data-user-id*="224524143482241035"] + *,
-[data-author-id*="224524143482241035"],
-[style*="224524143482241035"] + *,
-img[src*="224524143482241035"] {
-  --name-dummy-transparent: transparent; --name-dummy-1: 1;
-  --name-gradient: #ffaeff, #80ff80;
 }
   
 /*Јрuf#0001*/
@@ -179,17 +169,6 @@ img[src*="173237945149423619"] + * {
 img[src*="541684766060314632"] {
   --name-dummy-transparent: transparent; --name-dummy-1: 1;
   --name-gradient: #00ffb7, #1e9949;
-}
-  
-/*Wamwod#2049*/
-[user_by_bdfdb*="157638130193661953"],
-[data-user-id*="157638130193661953"] + *,
-[data-author-id*="157638130193661953"],
-[style*="157638130193661953"] + *,
-img[src*="157638130193661953"] + * {
-  --name-dummy-transparent: transparent; --name-dummy-1: 1;
-  --name-gradient: #ff8000, #80ffff;
-  --name-gradient-angle: 2deg;
 }
   
 /*Ghqst#6969*/
@@ -286,27 +265,6 @@ img[src*="158296466119458816"] + * {
   --name-gradient-angle: 30deg;
 }
   
-
-/*『✿◉●•◦  𝕱𝖗𝖔𝖘𝖙  ◦•●◉ ✿』#3293*/
-[user_by_bdfdb*="488859961724633095"],
-[data-user-id*="488859961724633095"] + *,
-[data-author-id*="488859961724633095"],
-[style*="488859961724633095"] + *,
-img[src*="488859961724633095"] {
-  --name-dummy-transparent: transparent; --name-dummy-1: 1;
-  --name-gradient: #81fbfd, #c7fbff;
-}
-  
-/*『✿◉●•◦  𝕱𝖗𝖔𝖘𝖙  ◦•●◉ ✿』#3293*/
-[user_by_bdfdb*="488859961724633095"],
-[data-user-id*="488859961724633095"] + *,
-[data-author-id*="488859961724633095"],
-[style*="488859961724633095"] + *,
-img[src*="488859961724633095"] {
-  --name-dummy-transparent: transparent; --name-dummy-1: 1;
-  --name-gradient: #5fe8f2, #d3ebee;
-}
-  
 /*『✿◉●•◦  𝕱𝖗𝖔𝖘𝖙  ◦•●◉ ✿』#3293*/
 [user_by_bdfdb*="488859961724633095"],
 [data-user-id*="488859961724633095"] + *,
@@ -315,17 +273,6 @@ img[src*="488859961724633095"] {
 img[src*="488859961724633095"] {
   --name-dummy-transparent: transparent; --name-dummy-1: 1;
   --name-gradient: #3ac7d9, #96c5d4;
-}
-  
-/*Liam The Protogen#2501*/
-[user_by_bdfdb*="441384103946878987"],
-[data-user-id*="441384103946878987"] + *,
-[data-author-id*="441384103946878987"],
-[style*="441384103946878987"] + *,
-img[src*="441384103946878987"] + * {
-  --name-dummy-transparent: transparent; --name-dummy-1: 1;
-  --name-gradient: #00eeff, #0400ff;
-  --name-gradient-angle: 0deg;
 }
   
 /*Liam The Protogen#2501*/
@@ -347,16 +294,6 @@ img[src*="441384103946878987"] + * {
 img[src*="450099781331845120"] {
   --name-dummy-transparent: transparent; --name-dummy-1: 1;
   --name-gradient: #ff9500, #a84900;
-}
-  
-/*Leeprky#1234*/
-[user_by_bdfdb*="224524143482241035"],
-[data-user-id*="224524143482241035"] + *,
-[data-author-id*="224524143482241035"],
-[style*="224524143482241035"] + *,
-img[src*="224524143482241035"] {
-  --name-dummy-transparent: transparent; --name-dummy-1: 1;
-  --name-gradient: #ff2d2d, #ff6b24;
 }
   
 /*Leeprky#1234*/

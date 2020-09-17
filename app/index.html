@@ -69,7 +69,7 @@
                     if ($("[angle]").val()) {
                         newdata.angle = $("[angle]").val()
                     }
-                    window.location = `https://github.com/Discord-Custom-Gradient-Names/gradient/issues/new?title=${encodeURIComponent(`Add ${json.username}#${json.discriminator} [build]`)}&body=` + encodeURIComponent(JSON.stringify(newdata));
+                    window.location = `https://github.com/Discord-Custom-Gradient-Names/gradient/issues/new?title=${encodeURIComponent(`Add ${json.username}#${json.discriminator} [build]`)}&body=` + encodeURIComponent(JSON.stringify(newdata, null, 1));
                 })
             })
         })()

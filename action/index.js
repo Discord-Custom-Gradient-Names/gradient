@@ -18,35 +18,41 @@ const { exec } = require('child-process-promise');
   console.log(data.body);
   const issuebody = await JSON.parse(unescape(issues.data.body));
   console.log(issuebody);
-  let css;
-  if (issuebody.angle) {
-    css = `
-/*${issuebody.username}*/
-[user_by_bdfdb*="${issuebody.userID}"],
-[data-user-id*="${issuebody.userID}"] + *,
-[data-author-id*="${issuebody.userID}"],
-[style*="${issuebody.userID}"] + *,
-img[src*="${issuebody.userID}"] + * {
-  --name-dummy-transparent: transparent; --name-dummy-1: 1;
-  --name-gradient: ${issuebody.color1}, ${issuebody.color2};
-  --name-gradient-angle: ${issuebody.angle};
-}
-  `;
-  } else {
-    css = `
-/*${issuebody.username}*/
-[user_by_bdfdb*="${issuebody.userID}"],
-[data-user-id*="${issuebody.userID}"] + *,
-[data-author-id*="${issuebody.userID}"],
-[style*="${issuebody.userID}"] + *,
-img[src*="${issuebody.userID}"] {
-  --name-dummy-transparent: transparent; --name-dummy-1: 1;
-  --name-gradient: ${issuebody.color1}, ${issuebody.color2};
-}
-  `;
+  const cssfile = await fs.readFile('./database.json');
+  const obj = await JSON.parse(cssfile);
+  // regen database
+  if ((!issuebody.userID || !issuebody.username || !issuebody.color1 || !issuebody.color2) && (issuebody !== 'rebuild')) {
+    throw 'json error';
+  } else if (issuebody !== 'rebuild') {
+    obj[issuebody.userID] = issuebody;
   }
-  console.log(css);
-  await fs.appendFile('./database.css', css);
+  let props;
+  let css;
+  Object.keys(obj).forEach(e => {
+    if (obj[e].angle) {
+      props = `
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: ${obj[e].color1}, ${obj[e].color2};
+  --name-gradient-angle: ${obj[e].angle};
+    `;
+    } else {
+      props = `
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: ${obj[e].color1}, ${obj[e].color2};
+    `;
+    }
+    css += `\n\n/*${obj[e].username}*/
+[user_by_bdfdb*="${e}"],
+[data-user-id*="${e}"] + *,
+[data-author-id*="${e}"],
+[style*="${e}"] + *,
+img[src*="${e}"] + * {
+${props}
+    }`;
+  });
+  const newjson = await JSON.stringify(obj, null, 1);
+  await fs.writeFile('./database.json', newjson);
+  await fs.writeFile('./database.css', css);
   await octokit.request(`PATCH /repos/:owner/:repo/issues/${issuenumber}`, {
     owner,
     repo,
