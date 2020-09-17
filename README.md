@@ -22,19 +22,18 @@ If you are using BetterDiscord, you MUST have a plugin by DevilBro running, as w
 ## Adding your Custom Gradient Name to the Database
 To add it, use [this generator](https://discord-custom-gradient-names.github.io/gradient/app/) and when done, hit `Generate Text`, then hit ``submit issue`` without changing the issue.
 
-You could also shoot us over a Pull Request with your Custom Gradient Name (must follow template below!) at the end of the [database.css](https://github.com/Discord-Custom-Gradient-Names/gradient/database.css) file. Rotation is optional, and defaults to left-to-right.
+You could also shoot us over a Pull Request with your Custom Gradient Name (must follow template below!) at the end of the [database.json](https://github.com/Discord-Custom-Gradient-Names/gradient/database.json) file, but before the last `}`. Angle is optional, and defaults to left-to-right.
 
 Template to follow for manual PR: 
-```css
-/*YOUR_USERNAME#YOUR_DISCRIMINATOR_TAG*/
-[user_by_bdfdb*="YOUR_USER_ID_HERE"],
-[data-user-id*="YOUR_USER_ID_HERE"] + *,
-[data-author-id*="YOUR_USER_ID_HERE"],
-img[src*="YOUR_USER_ID_HERE"] + * {
-  --name-dummy-transparent: transparent; --name-dummy-1: 1;
-  --name-gradient: COLOR1, COLOR2;
-  --name-gradient-angle: ROTATION;
-}
+```json
+,
+ "YOUR_USER_ID": {
+  "color1": "COLOR_1",
+  "color2": "COLOR_2",
+  "userID": "YOUR_USER_ID",
+  "username": "YOUR_USERNAME_AND_TAG",
+  "angle": "ANGLE"
+ }
 ```
 
 ## Support Server
