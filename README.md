@@ -27,13 +27,13 @@ You could also shoot us over a Pull Request with your Custom Gradient Name (must
 Template to follow for manual PR: 
 ```json
 ,
- "YOUR_USER_ID": {
-  "color1": "COLOR_1",
-  "color2": "COLOR_2",
-  "userID": "YOUR_USER_ID",
-  "username": "YOUR_USERNAME_AND_TAG",
-  "angle": "ANGLE"
- }
+"YOUR_USER_ID": {
+ "color1": "COLOR_1",
+ "color2": "COLOR_2",
+ "userID": "YOUR_USER_ID",
+ "username": "YOUR_USERNAME_AND_TAG",
+ "angle": "ANGLE"
+}
 ```
 
 ## Support Server
