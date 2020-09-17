@@ -359,3 +359,13 @@ img[src*="224524143482241035"] {
   --name-gradient: #ff2d2d, #ff6b24;
 }
   
+/*Leeprky#1234*/
+[user_by_bdfdb*="224524143482241035"],
+[data-user-id*="224524143482241035"] + *,
+[data-author-id*="224524143482241035"],
+[style*="224524143482241035"] + *,
+img[src*="224524143482241035"] {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #5eaeff, #6fffff;
+}
+  
