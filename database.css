@@ -339,3 +339,13 @@ img[src*="441384103946878987"] + * {
   --name-gradient-angle: 190deg;
 }
   
+/*Star#6865*/
+[user_by_bdfdb*="450099781331845120"],
+[data-user-id*="450099781331845120"] + *,
+[data-author-id*="450099781331845120"],
+[style*="450099781331845120"] + *,
+img[src*="450099781331845120"] {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #ff9500, #a84900;
+}
+  
