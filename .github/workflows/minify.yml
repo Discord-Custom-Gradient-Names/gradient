@@ -44,8 +44,8 @@ jobs:
           git config --local user.name "GitHub Action"
           git config pull.rebase false  # merge (the default strategy)
           git pull
-      - name: "Handle issue"
-        run: node ./action/index.js
+      - name: "Rebuild"
+        run: node ./action/commit.js
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Auto Minify
