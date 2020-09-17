@@ -48,7 +48,7 @@ const { exec } = require('child-process-promise');
 [style*="${e}"] + *,
 img[src*="${e}"] + * {
 ${props}
-    }`;
+}`;
   });
   const newjson = await JSON.stringify(obj, null, 1);
   await fs.writeFile('./database.json', newjson);
