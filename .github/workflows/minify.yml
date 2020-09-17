@@ -19,16 +19,30 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      # Install Node 14
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 14
+      - uses: egordm/gha-yarn-node-cache@v1
+      - uses: Jaid/action-npm-install@v1.2.4
+      # Node.js script can be anywhere. A good convention is to put local GitHub Actions
+      # into the `.github/actions` folder
       - name: Turnstyle
         uses: softprops/turnstyle@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           continue-after-seconds: 180
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-
-
+      - name: Set up Git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git config pull.rebase false  # merge (the default strategy)
+          git pull
+      - name: "Handle issue"
+        run: node ./action/index.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Auto Minify
         uses: nizarmah/auto-minify@master
         with:
@@ -37,8 +51,13 @@ jobs:
 
       # Auto commits minified files to the repository
       # Ignore it if you don't want to commit the files to the repository
-      - name: Auto committing minified files
-        uses: stefanzweifel/git-auto-commit-action@v3.0.0
+      - name: Add changes to Git tracking
+        run: git add -A .
+
+      - name: commit
+        run: git commit --amend --no-edit
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
         with:
-          commit_message: "minify css"
-          branch: ${{ github.ref }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
