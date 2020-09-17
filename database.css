@@ -317,3 +317,14 @@ img[src*="488859961724633095"] {
   --name-gradient: #3ac7d9, #96c5d4;
 }
   
+/*Liam The Protogen#2501*/
+[user_by_bdfdb*="441384103946878987"],
+[data-user-id*="441384103946878987"] + *,
+[data-author-id*="441384103946878987"],
+[style*="441384103946878987"] + *,
+img[src*="441384103946878987"] + * {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #00eeff, #0400ff;
+  --name-gradient-angle: 0deg;
+}
+  
