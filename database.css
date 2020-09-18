@@ -359,3 +359,15 @@ img[src*="224524143482241035"] + * {
   --name-gradient: #5eaeff, #6fffff;
     
 }
+
+/*SentraXx#4794*/
+[user_by_bdfdb*="269898918970523649"],
+[data-user-id*="269898918970523649"] + *,
+[data-author-id*="269898918970523649"],
+[style*="269898918970523649"] + *,
+img[src*="269898918970523649"] + * {
+
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #8000ff, #c800ff;
+    
+}
