@@ -371,3 +371,16 @@ img[src*="269898918970523649"] + * {
   --name-gradient: #8000ff, #c800ff;
     
 }
+
+/*Marcele#3630*/
+[user_by_bdfdb*="275665280498139137"],
+[data-user-id*="275665280498139137"] + *,
+[data-author-id*="275665280498139137"],
+[style*="275665280498139137"] + *,
+img[src*="275665280498139137"] + * {
+
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #6036d3, #2acb4a;
+  --name-gradient-angle: 123deg;
+    
+}
