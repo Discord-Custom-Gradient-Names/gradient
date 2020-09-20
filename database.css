@@ -384,3 +384,16 @@ img[src*="275665280498139137"] + * {
   --name-gradient-angle: 123deg;
     
 }
+
+/*Waluigi#7920*/
+[user_by_bdfdb*="590197139993264138"],
+[data-user-id*="590197139993264138"] + *,
+[data-author-id*="590197139993264138"],
+[style*="590197139993264138"] + *,
+img[src*="590197139993264138"] + * {
+
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #ff00f7, #450198;
+  --name-gradient-angle: 20deg;
+    
+}
