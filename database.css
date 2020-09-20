@@ -397,3 +397,16 @@ img[src*="590197139993264138"] + * {
   --name-gradient-angle: 20deg;
     
 }
+
+/*ScoreSaber Stats#8248*/
+[user_by_bdfdb*="713494902402449441"],
+[data-user-id*="713494902402449441"] + *,
+[data-author-id*="713494902402449441"],
+[style*="713494902402449441"] + *,
+img[src*="713494902402449441"] + * {
+
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #ffdd00, #c77e00;
+  --name-gradient-angle: 90deg;
+    
+}
