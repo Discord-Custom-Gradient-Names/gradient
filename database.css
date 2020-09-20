@@ -422,3 +422,16 @@ img[src*="696003456611385396"] + * {
   --name-gradient: #4d50bf, #ff2dff;
     
 }
+
+/*キム#5472*/
+[user_by_bdfdb*="724017110728179714"],
+[data-user-id*="724017110728179714"] + *,
+[data-author-id*="724017110728179714"],
+[style*="724017110728179714"] + *,
+img[src*="724017110728179714"] + * {
+
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #ff00ff, #ff0032;
+  --name-gradient-angle: 60deg;
+    
+}
