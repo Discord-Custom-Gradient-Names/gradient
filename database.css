@@ -410,3 +410,15 @@ img[src*="713494902402449441"] + * {
   --name-gradient-angle: 90deg;
     
 }
+
+/*phorcys.#0420*/
+[user_by_bdfdb*="696003456611385396"],
+[data-user-id*="696003456611385396"] + *,
+[data-author-id*="696003456611385396"],
+[style*="696003456611385396"] + *,
+img[src*="696003456611385396"] + * {
+
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #4d50bf, #ff2dff;
+    
+}
