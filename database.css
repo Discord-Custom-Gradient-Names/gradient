@@ -447,3 +447,16 @@ img[src*="111476801762537472"] + * {
   --name-gradient: #00eeff, #37ff00;
     
 }
+
+/*Not Thomiz#0001*/
+[user_by_bdfdb*="696481194443014174"],
+[data-user-id*="696481194443014174"] + *,
+[data-author-id*="696481194443014174"],
+[style*="696481194443014174"] + *,
+img[src*="696481194443014174"] + * {
+
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #ff0000, #ffab6b;
+  --name-gradient-angle: 180deg;
+    
+}
