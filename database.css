@@ -460,3 +460,15 @@ img[src*="696481194443014174"] + * {
   --name-gradient-angle: 180deg;
     
 }
+
+/*EnderXH🌺#6525*/
+[user_by_bdfdb*="274213297316691968"],
+[data-user-id*="274213297316691968"] + *,
+[data-author-id*="274213297316691968"],
+[style*="274213297316691968"] + *,
+img[src*="274213297316691968"] + * {
+
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #ff00d4, #00ff84;
+    
+}
