@@ -473,3 +473,15 @@ img[src*="274213297316691968"] + * {
   --name-gradient: #ff00d4, #00ff84;
     
 }
+
+/*absol#0666*/
+[user_by_bdfdb*="194830015353847817"],
+[data-user-id*="194830015353847817"] + *,
+[data-author-id*="194830015353847817"],
+[style*="194830015353847817"] + *,
+img[src*="194830015353847817"] + * {
+
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #86fedc, #ff9eb6;
+    
+}
