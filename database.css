@@ -209,7 +209,8 @@ img[src*="541684766060314632"] + * {
 img[src*="457729362750472192"] + * {
 
   --name-dummy-transparent: transparent; --name-dummy-1: 1;
-  --name-gradient: #f5f5f5, #808080;
+  --name-gradient: #a16efd, #835ace;
+  --name-gradient-angle: 50deg;
     
 }
 
