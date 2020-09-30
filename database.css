@@ -511,3 +511,16 @@ img[src*="247153658385399818"] + * {
   --name-gradient: #0ac22f, #186a01;
     
 }
+
+/*seasnail#8169*/
+[user_by_bdfdb*="736954747122352208"],
+[data-user-id*="736954747122352208"] + *,
+[data-author-id*="736954747122352208"],
+[style*="736954747122352208"] + *,
+img[src*="736954747122352208"] + * {
+
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #00ffd5, #ff00d4;
+  --name-gradient-angle: 70deg;
+    
+}
