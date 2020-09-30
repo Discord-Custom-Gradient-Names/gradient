@@ -6,8 +6,6 @@
 [class*="username"],
 [class*="nameTag"],
 [class*="replyUsername"] {
-  --name-dummy-transparent: null;
-  --name-gradient: null;
   -webkit-background-clip: text;
   -webkit-text-fill-color: var(--name-dummy-transparent);
   background-clip: text;
@@ -20,4 +18,8 @@
 }
 [class*="discriminator"] {
   opacity: var(--name-dummy-1);
+}
+[class*="message"] {
+  --name-dummy-transparent: null;
+  --name-gradient: null;
 }
