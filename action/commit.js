@@ -35,7 +35,7 @@ ${props}
   await fs.writeFile('./database.css', css);
   const { stdout } = await exec('git add ./database.css');
   console.log(stdout);
-  const { stdout2 } = await exec(`git commit -m "Rebuild dB"`);
+  const { stdout2 } = await exec(`git commit -m "Rebuild dB" --allow-empty`);
   console.log(stdout2);
   console.log('Done!');
 })();
