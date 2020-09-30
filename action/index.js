@@ -41,11 +41,11 @@ const { exec } = require('child-process-promise');
     `;
     }
     css += `\n\n/*${obj[e].username}*/
-[user_by_bdfdb*="${e}"],
-[data-user-id*="${e}"] + *,
-[data-author-id*="${e}"],
-[style*="${e}"] + *,
-img[src*="${e}"] + * {
+:root [user_by_bdfdb*="${e}"],
+:root [data-user-id*="${e}"] + *,
+:root [data-author-id*="${e}"],
+:root [style*="${e}"] + *,
+:root img[src*="${e}"] + * {
 ${props}
 }`;
   });
