@@ -6,8 +6,8 @@
 [class*="username"],
 [class*="nameTag"],
 [class*="replyUsername"] {
-  --name-dummy-transparent: null;
-  --name-gradient: null;
+  --name-dummy-transparent: unset;
+  --name-gradient: unset;
   -webkit-background-clip: text;
   -webkit-text-fill-color: var(--name-dummy-transparent);
   background-clip: text;
