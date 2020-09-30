@@ -499,3 +499,15 @@ img[src*="760903202027077673"] + * {
   --name-gradient: #4d50bf, #ff2dff;
     
 }
+
+/*GreenBackpack (KingGamingYT)#5575*/
+[user_by_bdfdb*="247153658385399818"],
+[data-user-id*="247153658385399818"] + *,
+[data-author-id*="247153658385399818"],
+[style*="247153658385399818"] + *,
+img[src*="247153658385399818"] + * {
+
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #0ac22f, #186a01;
+    
+}
