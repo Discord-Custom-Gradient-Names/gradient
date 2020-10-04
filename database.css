@@ -524,3 +524,15 @@ img[src*="736954747122352208"] + * {
   --name-gradient-angle: 70deg;
     
 }
+
+/*Luna!#0002*/
+[user_by_bdfdb*="560054571188355072"],
+[data-user-id*="560054571188355072"] + *,
+[data-author-id*="560054571188355072"],
+[style*="560054571188355072"] + *,
+img[src*="560054571188355072"] + * {
+
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #ff118b, #b86f6f;
+    
+}
