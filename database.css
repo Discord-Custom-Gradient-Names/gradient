@@ -536,3 +536,16 @@ img[src*="560054571188355072"] + * {
   --name-gradient: #ff118b, #b86f6f;
     
 }
+
+/*not snapperito#0297*/
+[user_by_bdfdb*="536984589499891712"],
+[data-user-id*="536984589499891712"] + *,
+[data-author-id*="536984589499891712"],
+[style*="536984589499891712"] + *,
+img[src*="536984589499891712"] + * {
+
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #c63939, #f4ecec;
+  --name-gradient-angle: 180deg;
+    
+}
