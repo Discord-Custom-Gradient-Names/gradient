@@ -549,3 +549,15 @@ img[src*="536984589499891712"] + * {
   --name-gradient-angle: 180deg;
     
 }
+
+/*bxnny 🥂#4153*/
+[user_by_bdfdb*="746345521735532605"],
+[data-user-id*="746345521735532605"] + *,
+[data-author-id*="746345521735532605"],
+[style*="746345521735532605"] + *,
+img[src*="746345521735532605"] + * {
+
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #0c3973, #9cbfec;
+    
+}
