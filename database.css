@@ -573,3 +573,15 @@ img[src*="334469240394481667"] + * {
   --name-gradient: #1141ff, #339fff;
     
 }
+
+/*Splash */
+[user_by_bdfdb*="539966444688113664"],
+[data-user-id*="539966444688113664"] + *,
+[data-author-id*="539966444688113664"],
+[style*="539966444688113664"] + *,
+img[src*="539966444688113664"] + * {
+
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #e60000, #750000;
+    
+}
