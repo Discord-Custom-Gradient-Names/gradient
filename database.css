@@ -561,3 +561,15 @@ img[src*="746345521735532605"] + * {
   --name-gradient: #0c3973, #9cbfec;
     
 }
+
+/*Taikutsunan#6781*/
+[user_by_bdfdb*="334469240394481667"],
+[data-user-id*="334469240394481667"] + *,
+[data-author-id*="334469240394481667"],
+[style*="334469240394481667"] + *,
+img[src*="334469240394481667"] + * {
+
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #1141ff, #339fff;
+    
+}
