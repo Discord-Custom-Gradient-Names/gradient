@@ -7,7 +7,7 @@ const { exec } = require('child-process-promise');
   const cssfile = await fs.readFile('./database.json');
   const obj = await JSON.parse(cssfile);
   let props;
-  let css;
+  let css = '';
   Object.keys(obj).forEach(e => {
     if (obj[e].angle) {
       props = `
