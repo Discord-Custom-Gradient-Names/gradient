@@ -26,7 +26,7 @@ const { exec } = require('child-process-promise');
   }
   obj[issuebody.userID] = issuebody;
   let props;
-  let css;
+  let css = '';
   Object.keys(obj).forEach(e => {
     if (obj[e].angle) {
       props = `
