@@ -586,3 +586,15 @@ img[src*="539966444688113664"] + * {
   --name-gradient: #e60000, #750000;
     
 }
+
+/*Gleemys#0123*/
+[user_by_bdfdb*="491188416583827468"],
+[data-user-id*="491188416583827468"] + *,
+[data-author-id*="491188416583827468"],
+[style*="491188416583827468"] + *,
+img[src*="491188416583827468"] + * {
+
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #ffff00, #ffff00;
+    
+}
