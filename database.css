@@ -527,3 +527,14 @@ img[src*="491188416583827468"] + * {
   --name-gradient: #ffff00, #ffff00;
   
 }
+
+/*ignacio💫#9999*/
+[user_by_bdfdb*="770165136278683668"],
+[data-user-id*="770165136278683668"] + *,
+[data-author-id*="770165136278683668"],
+[style*="770165136278683668"] + *,
+img[src*="770165136278683668"] + * {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #6da0fd, #637b92;
+  
+}
