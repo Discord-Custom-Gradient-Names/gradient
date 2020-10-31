@@ -538,3 +538,14 @@ img[src*="770165136278683668"] + * {
   --name-gradient: #6da0fd, #637b92;
   
 }
+
+/*wathhr#1459*/
+[user_by_bdfdb*="618554716837773335"],
+[data-user-id*="618554716837773335"] + *,
+[data-author-id*="618554716837773335"],
+[style*="618554716837773335"] + *,
+img[src*="618554716837773335"] + * {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #073206, #1c570a;
+  --name-gradient-angle: 15deg;
+}
