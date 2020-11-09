@@ -2,7 +2,7 @@ module.exports = function (obj, id) {
 return `\n\n/*${obj.username}*/
 [user_by_bdfdb*="${id}"],
 [data-user-id*="${id}"] + *,
-[data-user-id*="${id}"],
+.member-3-YXUe [data-user-id*="${id}"],
 [data-author-id*="${id}"],
 [style*="${id}"] + *,
 img[src*="${id}"] + * {
