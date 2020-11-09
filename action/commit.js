@@ -9,7 +9,6 @@ const { exec } = require('child-process-promise');
   const obj = await JSON.parse(db);
   let css = '';
   Object.keys(obj).forEach(e => {
-    delete obj[e].userID
     css += template(obj[e], e)
   });
   const newjson = await JSON.stringify(obj, null, 1);
