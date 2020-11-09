@@ -1,22 +1,28 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <title>Custom Gradient Names Preview</title>
+        <title>Custom Gradient Name Generator</title>
+        <meta name="theme-color" content="#7289da">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Custom Gradient Names">
+        <meta property="og:title" content="Custom Gradient Name Generator">
+        <meta property="og:description" content="Spice up your profile by giving yourself a gradient name!">
         <link rel="stylesheet" href="style.css">
-<style>
-:root{
-    --name-dummy-transparent: transparent;
-    --name-dummy-1: 1;
-}
-</style>
         <link rel="stylesheet" href="https://discord-custom-gradient-names.github.io/gradient/main.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://bgrins.github.io/spectrum/spectrum.js"></script> <!--if ur browser is ancient  -->
+        <script src="https://bgrins.github.io/spectrum/spectrum.js"></script> <!-- if ur browser is ancient -->
+        <style>
+            :root {
+              --name-dummy-transparent: transparent;
+              --name-dummy-1: 1;
+            }
+        </style>
     </head>
     <body>
         <div id="settings">
             <form>
-                Color 1: <input color1 type="color" id="color1" value=""><br><br>
-                Color 2: <input color2 type="color" value="14px"><br><br>
+                Color 1: <input color1 type="color" vlue="#ffffff"><br><br>
+                Color 2: <input color2 type="color" value="#000000"><br><br>
                 Angle, ex. 10deg(blank=LTR): <input angle type="text" value=""><br><br>
             </form>
             <div id="output">
@@ -27,8 +33,7 @@
         <div id="preview">
             <p>Preview:</p>
             <div class="avatar">
-                <img id = "avatarImg"
-                    src="">
+                <img id="avatarImg" src="">
                 <div class="hint">
                     <span class="username"></span>
                 </div>

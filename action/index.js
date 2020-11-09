@@ -1,6 +1,7 @@
 process.on('unhandledRejection', up => {
   throw up;
 });
+const template = require('./template');
 const { Octokit } = require('@octokit/action');
 const octokit = new Octokit();
 const [ owner, repo ] = process.env.GITHUB_REPOSITORY.split('/');
@@ -18,36 +19,17 @@ const { exec } = require('child-process-promise');
   console.log(data.body);
   const issuebody = await JSON.parse(unescape(issues.data.body));
   console.log(issuebody);
-  const cssfile = await fs.readFile('./database.json');
-  const obj = await JSON.parse(cssfile);
+  const db = await fs.readFile('./database.json');
+  const obj = await JSON.parse(db);
   // regen database
   if (!issuebody.userID || !issuebody.username || !issuebody.color1 || !issuebody.color2) {
     throw 'json error';
   }
   obj[issuebody.userID] = issuebody;
   let props;
-  let css;
+  let css = '';
   Object.keys(obj).forEach(e => {
-    if (obj[e].angle) {
-      props = `
-  --name-dummy-transparent: transparent; --name-dummy-1: 1;
-  --name-gradient: ${obj[e].color1}, ${obj[e].color2};
-  --name-gradient-angle: ${obj[e].angle};
-    `;
-    } else {
-      props = `
-  --name-dummy-transparent: transparent; --name-dummy-1: 1;
-  --name-gradient: ${obj[e].color1}, ${obj[e].color2};
-    `;
-    }
-    css += `\n\n/*${obj[e].username}*/
-[user_by_bdfdb*="${e}"],
-[data-user-id*="${e}"] + *,
-[data-author-id*="${e}"],
-[style*="${e}"] + *,
-img[src*="${e}"] + * {
-${props}
-}`;
+    css += template(obj[e], e)
   });
   const newjson = await JSON.stringify(obj, null, 1);
   await fs.writeFile('./database.json', newjson);
@@ -63,4 +45,3 @@ ${props}
   console.log(stdout2);
   console.log('Done!');
 })();
-
