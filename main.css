@@ -4,7 +4,7 @@
 
 /* Actual Code */
 [class*="username"],
-[class*="nameTag"],
+[class*="name"],
 [class*="replyUsername"] {
   -webkit-background-clip: text;
   -webkit-text-fill-color: var(--name-dummy-transparent);
