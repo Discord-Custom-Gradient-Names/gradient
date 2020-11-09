@@ -26,6 +26,7 @@ const { exec } = require('child-process-promise');
     throw 'json error';
   }
   obj[issuebody.userID] = issuebody;
+  delete obj[issuebody.userID].userID;
   let props;
   let css = '';
   Object.keys(obj).forEach(e => {
