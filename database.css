@@ -477,8 +477,8 @@ img[src*="111476801762537472"] + * {
 [style*="696481194443014174"] + *,
 img[src*="696481194443014174"] + * {
   --name-dummy-transparent: transparent; --name-dummy-1: 1;
-  --name-gradient: #ff0000, #ffab6b;
-  --name-gradient-angle: 180deg;
+  --name-gradient: #ff0000, #ff9500;
+  --name-gradient-angle: 90deg;
 }
 
 /*EnderXH🌺#6525*/
