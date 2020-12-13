@@ -30,7 +30,6 @@ Template to follow for manual PR:
 "YOUR_USER_ID": {
  "color1": "COLOR_1",
  "color2": "COLOR_2",
- "userID": "YOUR_USER_ID",
  "username": "YOUR_USERNAME_AND_TAG",
  "angle": "ANGLE"
 }
