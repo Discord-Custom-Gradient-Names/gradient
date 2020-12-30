@@ -442,7 +442,7 @@ img[src*="696003456611385396"] + * {
   
 }
 
-/*キム#5472*/
+/*kim.#5472*/
 [user_by_bdfdb="724017110728179714"],
 .avatar-3EQepX[data-user-id="724017110728179714"] + *,
 .member-3-YXUe[data-user-id="724017110728179714"],
@@ -451,8 +451,8 @@ img[src*="696003456611385396"] + * {
 [style*="724017110728179714"] + *,
 img[src*="724017110728179714"] + * {
   --name-dummy-transparent: transparent; --name-dummy-1: 1;
-  --name-gradient: #dad8b8, #ff0000;
-  --name-gradient-angle: 100deg;
+  --name-gradient: #ff2b95, #00ffff;
+  
 }
 
 /*48#0048*/
