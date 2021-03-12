@@ -15,10 +15,10 @@ To import, add this **at the top** of your QuickCSS / CustomCSS
 
 *P.S.: theme devs, feel free to add this to your theme without consent. To do so, add the snippet above with your imports, also if you want to, you can send over a PR to add your theme to the (soon™) list of themes using Discord Custom Gradient Names*
 
-
+<!--
 ## Attention all BetterDiscord Users!
 If you are using BetterDiscord, you MUST have a plugin by DevilBro running, as we require his library for certain, but important data attributes (`user_by_bdfdb`).
-
+-->
 ## Adding your Custom Gradient Name to the Database
 To add it, use [this generator](https://discord-custom-gradient-names.github.io/gradient/app/) and when done, hit `Generate Text`, then hit ``submit issue`` without changing the issue.
 
