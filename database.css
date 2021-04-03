@@ -831,3 +831,16 @@ img[src*="477660562533384213"] + * {
   --name-gradient: #5749cf, #381c75;
   
 }
+
+/*stupido#8869*/
+[user_by_bdfdb="282462820002693120"],
+.avatar-3EQepX[data-user-id="282462820002693120"] + *,
+.member-3-YXUe[data-user-id="282462820002693120"],
+.channel-2QD9_O[data-user-id="282462820002693120"],
+[data-author-id="282462820002693120"],
+[style*="282462820002693120"] + *,
+img[src*="282462820002693120"] + * {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #fb00ff, #00ffe1;
+  --name-gradient-angle: 45deg;
+}
