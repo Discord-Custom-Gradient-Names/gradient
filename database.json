@@ -278,9 +278,10 @@
   "username": "FantaCat#8387"
  },
  "284443834178600960": {
-  "color1": "#ffffff",
-  "color2": "#ff6bee",
-  "username": "hifu#0001"
+  "color1": "#000000",
+  "color2": "#bc015e",
+  "username": "hifu#0001",
+  "angle": "0deg"
  },
  "511758610720751626": {
   "color1": "#0062ff",
