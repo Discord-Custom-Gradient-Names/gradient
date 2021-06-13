@@ -182,19 +182,6 @@ img[src*="741488992066994287"] + * {
   
 }
 
-/*Kanin#0001*/
-[user_by_bdfdb="173237945149423619"],
-.avatar-3EQepX[data-user-id="173237945149423619"] + *,
-.member-3-YXUe[data-user-id="173237945149423619"],
-.channel-2QD9_O[data-user-id="173237945149423619"],
-[data-author-id="173237945149423619"],
-[style*="173237945149423619"] + *,
-img[src*="173237945149423619"] + * {
-  --name-dummy-transparent: transparent; --name-dummy-1: 1;
-  --name-gradient: #ff0000, #940000;
-  --name-gradient-angle: 45deg;
-}
-
 /*𝓝𝓮𝔁𝓽𝓦𝓸𝓻𝓴𝓼 (¯▿¯)#1419*/
 [user_by_bdfdb="541684766060314632"],
 .avatar-3EQepX[data-user-id="541684766060314632"] + *,
