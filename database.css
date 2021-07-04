@@ -659,8 +659,8 @@ img[src*="325934332290007042"] + * {
 [style*="284443834178600960"] + *,
 img[src*="284443834178600960"] + * {
   --name-dummy-transparent: transparent; --name-dummy-1: 1;
-  --name-gradient: #000000, #bc015e;
-  --name-gradient-angle: 0deg;
+  --name-gradient: #3d77ff, #14dcff;
+  --name-gradient-angle: 90deg;
 }
 
 /*Chromus#4761*/
