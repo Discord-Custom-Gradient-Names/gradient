@@ -935,3 +935,16 @@ img[src*="171631770326794240"] + * {
   --name-gradient: #ff007f, #7f00ff;
   --name-gradient-angle: 135deg;
 }
+
+/*AvelleaGames#0727*/
+[user_by_bdfdb="179651568331653120"],
+.avatar-3EQepX[data-user-id="179651568331653120"] + *,
+.member-3-YXUe[data-user-id="179651568331653120"],
+.channel-2QD9_O[data-user-id="179651568331653120"],
+[data-author-id="179651568331653120"],
+[style*="179651568331653120"] + *,
+img[src*="179651568331653120"] + * {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #a600ff, #ffffff;
+  --name-gradient-angle: 50deg;
+}
