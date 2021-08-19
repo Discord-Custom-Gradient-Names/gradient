@@ -1000,3 +1000,16 @@ img[src*="678633891791110144"] + * {
   --name-gradient: #b02fc1, #d345b5;
   --name-gradient-angle: 0deg;
 }
+
+/*EpikPenguinGuy#2222*/
+[user_by_bdfdb="733204631315808278"],
+.avatar-3EQepX[data-user-id="733204631315808278"] + *,
+.member-3-YXUe[data-user-id="733204631315808278"],
+.channel-2QD9_O[data-user-id="733204631315808278"],
+[data-author-id="733204631315808278"],
+[style*="733204631315808278"] + *,
+img[src*="733204631315808278"] + * {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #00ffee, #00ff62;
+  
+}
