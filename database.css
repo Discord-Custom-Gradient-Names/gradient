@@ -1013,3 +1013,16 @@ img[src*="733204631315808278"] + * {
   --name-gradient: #00ffee, #00ff62;
   
 }
+
+/*ItsYaGirlJessica#2572*/
+[user_by_bdfdb="687354166561341455"],
+.avatar-3EQepX[data-user-id="687354166561341455"] + *,
+.member-3-YXUe[data-user-id="687354166561341455"],
+.channel-2QD9_O[data-user-id="687354166561341455"],
+[data-author-id="687354166561341455"],
+[style*="687354166561341455"] + *,
+img[src*="687354166561341455"] + * {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #e274ca, #b7b466;
+  
+}
