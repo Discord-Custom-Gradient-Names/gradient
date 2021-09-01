@@ -1039,3 +1039,16 @@ img[src*="220980427534499841"] + * {
   --name-gradient: #ffa3f7, #2957ff;
   --name-gradient-angle: 30deg;
 }
+
+/*Intertwined Fate#4259*/
+[user_by_bdfdb="882388586178158652"],
+.avatar-3EQepX[data-user-id="882388586178158652"] + *,
+.member-3-YXUe[data-user-id="882388586178158652"],
+.channel-2QD9_O[data-user-id="882388586178158652"],
+[data-author-id="882388586178158652"],
+[style*="882388586178158652"] + *,
+img[src*="882388586178158652"] + * {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #ff8fd6, #4dacff;
+  
+}
