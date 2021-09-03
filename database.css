@@ -984,8 +984,8 @@ img[src*="329992732229632000"] + * {
 [style*="465960044094160908"] + *,
 img[src*="465960044094160908"] + * {
   --name-dummy-transparent: transparent; --name-dummy-1: 1;
-  --name-gradient: #f93c17, #c3ae1a;
-  --name-gradient-angle: 0;
+  --name-gradient: #b8050f, #c16917;
+  --name-gradient-angle: 45deg;
 }
 
 /*Jarvis#3218*/
