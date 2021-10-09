@@ -1091,3 +1091,16 @@ img[src*="741664536032968835"] + * {
   --name-gradient: #ff0000, #ffffff;
   
 }
+
+/*The Commie Axolotl#6898*/
+[user_by_bdfdb="538487970408300544"],
+.avatar-3EQepX[data-user-id="538487970408300544"] + *,
+.member-3-YXUe[data-user-id="538487970408300544"],
+.channel-2QD9_O[data-user-id="538487970408300544"],
+[data-author-id="538487970408300544"],
+[style*="538487970408300544"] + *,
+img[src*="538487970408300544"] + * {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #ff42b0, #6242ff;
+  --name-gradient-angle: 90deg;
+}
