@@ -1169,3 +1169,16 @@ img[src*="825213635201990710"] + * {
   --name-gradient: #fe1010, #ffffff;
   --name-gradient-angle: 11deg;
 }
+
+/*🎄 •°[Doctor, doctor!]°• 🎄#0004*/
+[user_by_bdfdb="842040175143944232"],
+.avatar-3EQepX[data-user-id="842040175143944232"] + *,
+.member-3-YXUe[data-user-id="842040175143944232"],
+.channel-2QD9_O[data-user-id="842040175143944232"],
+[data-author-id="842040175143944232"],
+[style*="842040175143944232"] + *,
+img[src*="842040175143944232"] + * {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #ff0000, #04ff00;
+  
+}
