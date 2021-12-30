@@ -1182,3 +1182,16 @@ img[src*="842040175143944232"] + * {
   --name-gradient: #ff0000, #04ff00;
   
 }
+
+/*❄ Gejzberg ❄#0001*/
+[user_by_bdfdb="525992510783356940"],
+.avatar-3EQepX[data-user-id="525992510783356940"] + *,
+.member-3-YXUe[data-user-id="525992510783356940"],
+.channel-2QD9_O[data-user-id="525992510783356940"],
+[data-author-id="525992510783356940"],
+[style*="525992510783356940"] + *,
+img[src*="525992510783356940"] + * {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #e51010, #00ffd5;
+  
+}
