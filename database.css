@@ -1221,3 +1221,16 @@ img[src*="405754690396225536"] + * {
   --name-gradient: #dc8add, #613583;
   
 }
+
+/*' ⴽᎷ✗Sammie#0155*/
+[user_by_bdfdb="759798437600034876"],
+.avatar-3EQepX[data-user-id="759798437600034876"] + *,
+.member-3-YXUe[data-user-id="759798437600034876"],
+.channel-2QD9_O[data-user-id="759798437600034876"],
+[data-author-id="759798437600034876"],
+[style*="759798437600034876"] + *,
+img[src*="759798437600034876"] + * {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #ff006f, #8c00ff;
+  
+}
