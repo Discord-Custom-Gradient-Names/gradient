@@ -1361,6 +1361,6 @@ img[src*="138723188774404096"] + * {
 [style*="284269281821327360"] + *,
 img[src*="284269281821327360"] + * {
   --name-dummy-transparent: transparent; --name-dummy-1: 1;
-  --name-gradient: #00ffaa, #0091ff;
+  --name-gradient: #00ccff, #ff0000;
   
 }
