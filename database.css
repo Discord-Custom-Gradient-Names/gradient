@@ -1416,3 +1416,16 @@ img[src*="401028597143437322"] + * {
   --name-gradient: #c202b5, #240033;
   
 }
+
+/*mayta knight#5186*/
+[user_by_bdfdb="690336430895268300"],
+.avatar-3EQepX[data-user-id="690336430895268300"] + *,
+.member-3-YXUe[data-user-id="690336430895268300"],
+.channel-2QD9_O[data-user-id="690336430895268300"],
+[data-author-id="690336430895268300"],
+[style*="690336430895268300"] + *,
+img[src*="690336430895268300"] + * {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #683a9e, #bb00ff;
+  
+}
