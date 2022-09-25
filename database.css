@@ -1429,3 +1429,16 @@ img[src*="690336430895268300"] + * {
   --name-gradient: #683a9e, #bb00ff;
   
 }
+
+/*neilfromtwt#3083*/
+[user_by_bdfdb="683173020423946258"],
+.avatar-3EQepX[data-user-id="683173020423946258"] + *,
+.member-3-YXUe[data-user-id="683173020423946258"],
+.channel-2QD9_O[data-user-id="683173020423946258"],
+[data-author-id="683173020423946258"],
+[style*="683173020423946258"] + *,
+img[src*="683173020423946258"] + * {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #ae6c4d, #757575;
+  --name-gradient-angle: 180deg;
+}
