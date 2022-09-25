@@ -1442,3 +1442,16 @@ img[src*="683173020423946258"] + * {
   --name-gradient: #ae6c4d, #757575;
   --name-gradient-angle: 180deg;
 }
+
+/*Melon-Collie#0179*/
+[user_by_bdfdb="617549593395200010"],
+.avatar-3EQepX[data-user-id="617549593395200010"] + *,
+.member-3-YXUe[data-user-id="617549593395200010"],
+.channel-2QD9_O[data-user-id="617549593395200010"],
+[data-author-id="617549593395200010"],
+[style*="617549593395200010"] + *,
+img[src*="617549593395200010"] + * {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #ff0000, #0091ff;
+  
+}
