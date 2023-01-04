@@ -1481,3 +1481,16 @@ img[src*="1035719932723343370"] + * {
   --name-gradient: #ffb38a, #e18fff;
   
 }
+
+/*Solar_Tiger#9639*/
+[user_by_bdfdb="223850348601671680"],
+.avatar-3EQepX[data-user-id="223850348601671680"] + *,
+.member-3-YXUe[data-user-id="223850348601671680"],
+.channel-2QD9_O[data-user-id="223850348601671680"],
+[data-author-id="223850348601671680"],
+[style*="223850348601671680"] + *,
+img[src*="223850348601671680"] + * {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #000000, #eb9c00;
+  
+}
