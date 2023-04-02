@@ -1494,3 +1494,16 @@ img[src*="223850348601671680"] + * {
   --name-gradient: #000000, #eb9c00;
   
 }
+
+/*The Wizard Master#3519*/
+[user_by_bdfdb="906737062768681020"],
+.avatar-3EQepX[data-user-id="906737062768681020"] + *,
+.member-3-YXUe[data-user-id="906737062768681020"],
+.channel-2QD9_O[data-user-id="906737062768681020"],
+[data-author-id="906737062768681020"],
+[style*="906737062768681020"] + *,
+img[src*="906737062768681020"] + * {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #12ffa1, #1fb9ff;
+  
+}
