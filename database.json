@@ -611,8 +611,9 @@
   "username": "Solar_Tiger#9639"
  },
  "906737062768681020": {
-  "color1": "#12ffa1",
-  "color2": "#1fb9ff",
-  "username": "The Wizard Master#3519"
+  "color1": "#1cff86",
+  "color2": "#1cbbff",
+  "username": "The Wizard Master#3519",
+  "angle": "45deg"
  }
 }
