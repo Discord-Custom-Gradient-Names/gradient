@@ -1585,3 +1585,16 @@ img[src*="1013183731160322169"] + * {
   --name-gradient: #5f03f8, #00cece;
   
 }
+
+/*waffpng#0*/
+[user_by_bdfdb="328965941708718080"],
+.avatar-3EQepX[data-user-id="328965941708718080"] + *,
+.member-3-YXUe[data-user-id="328965941708718080"],
+.channel-2QD9_O[data-user-id="328965941708718080"],
+[data-author-id="328965941708718080"],
+[style*="328965941708718080"] + *,
+img[src*="328965941708718080"] + * {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #f9c58d, #f492f0;
+  --name-gradient-angle: 180deg;
+}
