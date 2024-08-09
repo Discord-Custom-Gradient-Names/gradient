@@ -1663,3 +1663,16 @@ img[src*="694748517893275700"] + * {
   --name-gradient: #00bfff, #ffa8ef;
   
 }
+
+/*himbos.exe#0*/
+[user_by_bdfdb="701306912381206538"],
+.avatar-3EQepX[data-user-id="701306912381206538"] + *,
+.member-3-YXUe[data-user-id="701306912381206538"],
+.channel-2QD9_O[data-user-id="701306912381206538"],
+[data-author-id="701306912381206538"],
+[style*="701306912381206538"] + *,
+img[src*="701306912381206538"] + * {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #b1c5fb, #ffd2b0;
+  
+}
