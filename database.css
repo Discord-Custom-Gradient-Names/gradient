@@ -1807,7 +1807,7 @@ img[src*="227553736996814850"] + * {
   
 }
 
-/*tynnkz#0*/
+/*tynnkz#0001*/
 [user_by_bdfdb="364650777274220546"],
 .avatar-3EQepX[data-user-id="364650777274220546"] + *,
 .member-3-YXUe[data-user-id="364650777274220546"],
@@ -1817,5 +1817,5 @@ img[src*="227553736996814850"] + * {
 img[src*="364650777274220546"] + * {
   --name-dummy-transparent: transparent; --name-dummy-1: 1;
   --name-gradient: #062cea, #be35e3;
-  --name-gradient-angle: 10deg;
+  --name-gradient-angle: 20deg;
 }
