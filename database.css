@@ -1845,3 +1845,16 @@ img[src*="1213454197534625826"] + * {
   --name-gradient: #2d96d7, #b324f5;
   --name-gradient-angle: 345deg;
 }
+
+/*nowyouknowpain#0*/
+[user_by_bdfdb="1235755877106061384"],
+.avatar-3EQepX[data-user-id="1235755877106061384"] + *,
+.member-3-YXUe[data-user-id="1235755877106061384"],
+.channel-2QD9_O[data-user-id="1235755877106061384"],
+[data-author-id="1235755877106061384"],
+[style*="1235755877106061384"] + *,
+img[src*="1235755877106061384"] + * {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #7b1db5, #000000;
+  
+}
