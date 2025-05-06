@@ -1910,3 +1910,16 @@ img[src*="669295779126575132"] + * {
   --name-gradient: #5dc7c5, #d9b2ca;
   --name-gradient-angle: 10deg(blank=LTR);
 }
+
+/*.nafl#0*/
+[user_by_bdfdb="603254953607430175"],
+.avatar-3EQepX[data-user-id="603254953607430175"] + *,
+.member-3-YXUe[data-user-id="603254953607430175"],
+.channel-2QD9_O[data-user-id="603254953607430175"],
+[data-author-id="603254953607430175"],
+[style*="603254953607430175"] + *,
+img[src*="603254953607430175"] + * {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #3471b2, #71b7a0;
+  
+}
