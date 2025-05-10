@@ -1975,3 +1975,16 @@ img[src*="739835532028280962"] + * {
   --name-gradient: #000000, #c7e33b;
   
 }
+
+/*marxs_soul#0*/
+[user_by_bdfdb="1251651924554678336"],
+.avatar-3EQepX[data-user-id="1251651924554678336"] + *,
+.member-3-YXUe[data-user-id="1251651924554678336"],
+.channel-2QD9_O[data-user-id="1251651924554678336"],
+[data-author-id="1251651924554678336"],
+[style*="1251651924554678336"] + *,
+img[src*="1251651924554678336"] + * {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #1754cf, #a71193;
+  
+}
