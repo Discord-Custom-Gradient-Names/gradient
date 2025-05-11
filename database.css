@@ -1988,3 +1988,16 @@ img[src*="1251651924554678336"] + * {
   --name-gradient: #ed3ef9, #193bc2;
   --name-gradient-angle: 0;
 }
+
+/*jerryishere6207#0*/
+[user_by_bdfdb="1017049328264679435"],
+.avatar-3EQepX[data-user-id="1017049328264679435"] + *,
+.member-3-YXUe[data-user-id="1017049328264679435"],
+.channel-2QD9_O[data-user-id="1017049328264679435"],
+[data-author-id="1017049328264679435"],
+[style*="1017049328264679435"] + *,
+img[src*="1017049328264679435"] + * {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #0000ff, #00ffff;
+  
+}
