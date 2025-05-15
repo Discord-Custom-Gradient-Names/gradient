@@ -2014,3 +2014,16 @@ img[src*="942014478034288691"] + * {
   --name-gradient: #ff0000, #ffff00;
   
 }
+
+/*1_supernova_0#0*/
+[user_by_bdfdb="438042641553424385"],
+.avatar-3EQepX[data-user-id="438042641553424385"] + *,
+.member-3-YXUe[data-user-id="438042641553424385"],
+.channel-2QD9_O[data-user-id="438042641553424385"],
+[data-author-id="438042641553424385"],
+[style*="438042641553424385"] + *,
+img[src*="438042641553424385"] + * {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #f966a1, #56e6f0;
+  
+}
