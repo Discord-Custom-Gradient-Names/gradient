@@ -2092,3 +2092,16 @@ img[src*="323493571799810048"] + * {
   --name-gradient: #3f03b0, #78126f;
   --name-gradient-angle: 80deg;
 }
+
+/*ashley.graves#0*/
+[user_by_bdfdb="253341311875153921"],
+.avatar-3EQepX[data-user-id="253341311875153921"] + *,
+.member-3-YXUe[data-user-id="253341311875153921"],
+.channel-2QD9_O[data-user-id="253341311875153921"],
+[data-author-id="253341311875153921"],
+[style*="253341311875153921"] + *,
+img[src*="253341311875153921"] + * {
+  --name-dummy-transparent: transparent; --name-dummy-1: 1;
+  --name-gradient: #d88383, #641111;
+  
+}
